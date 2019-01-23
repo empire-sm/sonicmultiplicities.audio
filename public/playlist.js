@@ -55,6 +55,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	wavesurfer.on('play', hideProgress);
 	wavesurfer.on('pause', hideProgress);
 	wavesurfer.on('waveform-ready', hideProgress);
+
+    wavesurfer.addRegion({
+        start: 0,
+        end: 30,
+        drag: false,
+        resize: false
+    })
     })();
 });
 
