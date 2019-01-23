@@ -1,0 +1,115 @@
+<html>
+	<head>
+	  <meta charset="UTF-8">
+        <!-- Bootstrap -->
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://wavesurfer-js.org/example/css/style.css" />
+        <link rel="stylesheet" href="https://wavesurfer-js.org/example/css/ribbon.css" />
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Montserrat|Open+Sans|Roboto" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Codystar:300|Nova+Square" rel="stylesheet">
+
+
+		<script src="https://unpkg.com/wavesurfer.js/dist/wavesurfer.js"></script>
+		<script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.js"></script>
+		<!-- media session plugin -->
+		<script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.mediasession.js"></script>
+
+		<script src="playlist.js"></script>
+	  <style>
+	    @font-face {
+		font-family:"Montserrat";
+    	    }
+            #playlist.list-group-item.active>.badge, .nav-pills>.active>a>.badge{background-color:#0f0f0f;}
+	    #playlist.list-group > a {opacity:0.8;color:#ffffff;background-color:rgba(0, 0, 0, 0.5);border-color:#C0691B;}
+	    #playlist.list-group > a:hover {opacity:1;color:#000000;}
+	 </style>
+	</head>
+	<body background="coverart.png">
+            <div id="demo">
+                <div class="row" style="margin: 30px 0">
+                    <div class="col-sm-10">
+                        <div id="waveform">
+			    <div class="progress progress-striped active" id="progress-bar">
+				<div class="progress-bar progress-bar-info"></div>
+			    </div>
+                            <!-- Here be waveform -->
+                        </div>
+			<div id="wave-timeline"></div>		
+                    </div>
+
+                    <div class="col-sm-2">
+                        <button class="btn btn-success btn-block" id="playPause" style="background-color:rgba(0,0,0,0.6);border-color:rgba(0,0,0,0.1);">
+                            <span id="play">
+                                <i class="glyphicon glyphicon-play"></i>
+                            </span>
+
+                            <span id="pause" style="display: none;background-color:rgba(0,0,0,0.6);border-color:rgba(0,0,0,0.1);">
+                                <i class="glyphicon glyphicon-pause"></i>
+                                
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="list-group" id="playlist">
+                    <a href="../▲.mp3" class="list-group-item" style="background-color:rgba(0, 0, 0, 0.5);border-color:#C0691B">
+                        <i class="glyphicon glyphicon-play"></i>
+                        <span class="badge">12:16</span>
+                    </a>
+                    <a href="../▲▲.mp3" class="list-group-item" style="background-color:rgba(0, 0, 0, 0.5);border-color:#C0691B">
+                        <i class="glyphicon glyphicon-play"></i>
+                        <i class="glyphicon glyphicon-play"></i>
+                        <span class="badge">11:02</span>
+                    </a>
+                    <a href="../▲▲▲.mp3" class="list-group-item" style="background-color:rgba(0, 0, 0, 0.5);border-color:#C0691B">
+                        <i class="glyphicon glyphicon-play"></i>
+                        <i class="glyphicon glyphicon-play"></i>
+                        <i class="glyphicon glyphicon-play"></i>
+                        <span class="badge">08:28</span>
+                    </a>
+                   <!-- <a href="../releases/Upward.Fall/320/01 Prelude Head in the Sand.mp3" class="list-group-item">
+                        01 <i class="glyphicon glyphicon-play"></i>
+                        Prelude: Head in the Sand (Garrett Semmelink, violin)
+                        <span class="badge">04:38</span>
+                    </a>
+                    <a href="../releases/Upward.Fall/320/02 Upward Fall, I. Felling.mp3" class="list-group-item">
+                        02 <i class="glyphicon glyphicon-play"></i>
+                        Upward Fall, I. Yoga (Tyler Dinner & Max Pena, slide guitar)
+                        <span class="badge">08:36</span>
+                    </a>
+                    <a href="../releases/Upward.Fall/320/03 Upward Fall, II. The Nightlife Circuit.mp3" class="list-group-item">
+                        03 <i class="glyphicon glyphicon-play"></i>
+                        Upward Fall, II. Paradise (Tyler Dinner & Max Pena, slide guitar)
+                        <span class="badge">06:43</span>
+                    </a>
+                    <a href="../releases/Upward.Fall/320/04 Upward Fall, III. Yoga.mp3" class="list-group-item">
+                        04 <i class="glyphicon glyphicon-play"></i>
+                        Upward Fall, III. Chains (Tyler Dinner & Max Pena, slide guitar)
+                        <span class="badge">09:26</span>
+                    </a>
+                    <a href="../releases/Upward.Fall/320/05 Distension, I. Do-si-do.mp3" class="list-group-item">
+                        05 <i class="glyphicon glyphicon-play"></i>
+                        Distension, I. Do-si-do (Garrett Semmelink, violin & Tyler Dinner, slide guitar)
+                        <span class="badge">20:29</span>
+                    </a>
+                    <a href="../releases/Upward.Fall/320/06 Distension, II. Paradise, CA.mp3" class="list-group-item">
+                        06 <i class="glyphicon glyphicon-play"></i>
+                        Distension, II. The Nightlife Circuit (Garrett Semmelink, violin & Tyler Dinner, slide guitar)
+                        <span class="badge">11:03</span>
+                    </a>
+                    <a href="../releases/Upward.Fall/320/07 Finale Head in the Clouds.mp3" class="list-group-item">
+                        07 <i class="glyphicon glyphicon-play"></i>
+                        Finale: Head in the Clouds (Garrett Semmelink, violin)
+                        <span class="badge">20:02</span>
+                    </a>-->
+                </div> 
+		<div id="album" style="font-family:Nova Square;font-size:86px;color:#d5751f;text-shadow: 2px 2px 8px black;">
+			<h1 style="font-size:86px;"><b>▲</b></h1>
+			<h2 style="padding:96px;padding-top:2px;"><i>▲▲▲▲▲▲▲▲▲</i></h2>
+			<br><br>
+		</div>
+            </div>
+	</body>
+</html>
