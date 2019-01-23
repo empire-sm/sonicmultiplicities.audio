@@ -30,7 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			    artist: 'Broken Hearts on Ice',
 			    album: 'Upward Fall'
 			}
-		})
+		}),
+        WaveSurfer.regions.create()
 	]
     });
     /* Progress bar */
@@ -56,12 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	wavesurfer.on('pause', hideProgress);
 	wavesurfer.on('waveform-ready', hideProgress);
 
-    wavesurfer.addRegion({
-        start: 0,
-        end: 30,
-        drag: false,
-        resize: false
-    })
     })();
 });
 
