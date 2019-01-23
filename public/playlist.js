@@ -88,6 +88,16 @@ document.addEventListener('DOMContentLoaded', function() {
         currentTrack = index;
         links[currentTrack].classList.add('active');
         wavesurfer.load(links[currentTrack].href);
+        if (index == 0) {
+            wavesurfer.addRegion({
+                start: 0,
+                end: 30,
+                loop: false,
+                drag: false,
+                resize: false
+            })
+            console.log('yo')
+        }
     };
     // Load the track on click
     Array.prototype.forEach.call(links, function(link, index) {
