@@ -48,11 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         var hideProgress = function() {
             progressDiv.style.display = 'none';
-            var r1 = wavesurfer.addRegion({
-                start: 5,
-                end: 15
-            });
-            r1.on('region-in', r => console.log(r))
         };
 
         wavesurfer.on('loading', showProgress);
@@ -84,6 +79,17 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('#pause').style.display = 'none';
     });
 
+    var cred1 = document.getElementById('#c1');
+    var r1 = wavesurfer.addRegion({
+        id: 'region-1',
+        start: 5,
+        end: 15,
+        drag: false,
+        loop: false,
+        resize: false
+    });
+    r1.on('in', r => cred1.style.display = 'block')
+    r1.on('out', r => cred1.style.display='none')
 
     // The playlist links
     var links = document.querySelectorAll('#playlist a');
@@ -91,9 +97,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Load a track by index and highlight the corresponding link
     var setCurrentSong = function(index) {
-	links[currentTrack].classList.remove('active');
+	    links[currentTrack].classList.remove('active');
         currentTrack = index;
         links[currentTrack].classList.add('active');
+        switch (index) {
+            case 1:
+            cred1.innerHTML = 'Featuring:<br> Tyler Dinner and Joseph Werle<br>Acoustic Guitars';
+            break
+            case 2:
+            cred1.innerHTML = 'Featuring:<br> Michael and Tyler Dinner<br>Acoustic Guitars';
+            case 0:
+            default:
+            break
+        }
         wavesurfer.load(links[currentTrack].href);
     };
     // Load the track on click
