@@ -79,18 +79,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('#pause').style.display = 'none';
     });
 
-    var cred1 = document.getElementById('#c1');
-    var r1 = wavesurfer.addRegion({
-        id: 'region-1',
-        start: 5,
-        end: 15,
-        drag: false,
-        loop: false,
-        resize: false
-    });
-    r1.on('in', r => cred1.style.display = 'block')
-    r1.on('out', r => cred1.style.display='none')
-
     // The playlist links
     var links = document.querySelectorAll('#playlist a');
     var currentTrack = 0;
