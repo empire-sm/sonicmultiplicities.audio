@@ -21,9 +21,9 @@ module.exports = {
     author: 'Andrew Grathwohl',
     date: new Date(),
     enclosure: {
-      url: 'http://sonicmultiplicities.audio/▲.mp3',
-      file: '/home/gwohl/▲.mp3',
-      type: 'audio/mpeg'
+      url: 'http://sonicmultiplicities.audio/opus/▲.opus',
+      file: '../releases/opus/▲.opus',
+      type: 'audio/opus'
     }
   }
 }
