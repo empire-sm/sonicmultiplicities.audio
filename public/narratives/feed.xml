@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Andrew Grathwohl</title>
+    <title>SONICNARRATIVE</title>
     <description>Scores for unconventional narratives</description>
     <link>http://sonicmultiplicities.audio/narratives/</link>
     <atom:link href="http://sonicmultiplicities.audio/narratives/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Feb 2019 00:07:03 -0500</pubDate>
-    <lastBuildDate>Sun, 10 Feb 2019 00:07:03 -0500</lastBuildDate>
+    <pubDate>Sun, 10 Feb 2019 00:17:44 -0500</pubDate>
+    <lastBuildDate>Sun, 10 Feb 2019 00:17:44 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
   </channel>
