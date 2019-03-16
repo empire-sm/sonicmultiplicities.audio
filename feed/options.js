@@ -33,6 +33,8 @@ module.exports = {
       file: '../releases/1.mp3',
       type: 'audio/mpeg'
     },
+    itunesSubtitle: "Sonic Multiplicities #1",
+    itunesSummary: 'Joseph Werle and Michael Dinner, acoustic guitars',
     itunesDuration: 736
   },
   {
@@ -48,6 +50,8 @@ module.exports = {
       file: '../releases/2.mp3',
       type: 'audio/mpeg'
     },
+    itunesSubtitle: "Sonic Multiplicities #2",
+    itunesSummary: 'Joseph Werle and Tyler Dinner, acoustic guitars',
     itunesDuration: 657
   },
   ]
