@@ -4,7 +4,13 @@ const feedOptions = require('./options')
 
 const feed = new Podcast(feedOptions.feed)
 
-feed.addItem(feedOptions.item)
+let iNum = 0
+
+feedOptions.items.forEach(item => {
+  iNum += 1
+  feed.addItem(item)
+  console.log('Added the item %s', iNum)
+})
 
 console.log(feed)
 
