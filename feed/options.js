@@ -22,12 +22,12 @@ module.exports = {
   item: {
     title: '▲',
     description: 'Joseph Werle and Michael Dinner, acoustic guitars',
-    url: 'http://sonicmultiplicities.audio/▲.mp3',
+    url: 'http://sonicmultiplicities.audio/1.mp3',
     categories: ['Music'],
     author: '▲',
     date: new Date(),
     enclosure: {
-      url: 'http://sonicmultiplicities.audio/▲.mp3',
+      url: 'http://sonicmultiplicities.audio/1.mp3',
       file: '../releases/▲.mp3',
       type: 'audio/mpeg'
     },
