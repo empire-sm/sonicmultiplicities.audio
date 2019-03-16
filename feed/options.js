@@ -5,18 +5,24 @@ module.exports = {
     generator: '▲',
     feedUrl: 'http://sonicmultiplicities.audio/feed.xml',
     siteUrl: 'http://sonicmultiplicities.audio',
+    imageUrl: 'http://sonicmultiplicities.audio/triangle.png',
     author: '▲',
     managingEditor: '▲',
     copyright: 'None',
-    language: 'Music',
+    language: 'en',
     categories: ['Music'],
     itunesOwner: { name: '▲', email:'andrew@grathwohl.me'  },
+    itunesImage: 'http://sonicmultiplicities.audio/triangle.png',
+    itunesExplicit: false,
+    itunesCategory: [{
+      "text": "Music"
+    }],
+    itunesAuthor: '▲',
   },
   item: {
     title: '▲',
     description: 'Joseph Werle and Michael Dinner, acoustic guitars',
     url: 'http://sonicmultiplicities.audio/▲.mp3',
-    guid: '▲',
     categories: ['Music'],
     author: '▲',
     date: new Date(),
@@ -24,6 +30,7 @@ module.exports = {
       url: 'http://sonicmultiplicities.audio/▲.mp3',
       file: '../releases/▲.mp3',
       type: 'audio/mpeg'
-    }
+    },
+    itunesDuration: 736
   }
 }
