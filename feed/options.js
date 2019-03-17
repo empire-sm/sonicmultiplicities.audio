@@ -43,7 +43,7 @@ module.exports = {
     url: 'http://sonicmultiplicities.audio/2.mp3',
     categories: ['Music'],
     guid: 0002,
-    author: '▲▲',
+    author: '▲',
     date: 'Mar 1, 2019',
     enclosure: {
       url: 'http://sonicmultiplicities.audio/2.mp3',
@@ -53,6 +53,23 @@ module.exports = {
     itunesSubtitle: "Sonic Multiplicities #2",
     itunesSummary: 'Joseph Werle and Tyler Dinner, acoustic guitars',
     itunesDuration: 657
+  },
+  {
+    title: '▲▲▲',
+    description: 'Tyler Dinner and Michael Dinner, acoustic guitars',
+    url: 'http://sonicmultiplicities.audio/3.mp3',
+    categories: ['Music'],
+    guid: 0002,
+    author: '▲',
+    date: 'Mar 16, 2019',
+    enclosure: {
+      url: 'http://sonicmultiplicities.audio/3.mp3',
+      file: '../releases/3.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: "Sonic Multiplicities #3",
+    itunesSummary: 'Tyler Dinner and Michael Dinner, acoustic guitars',
+    itunesDuration: 508
   },
   ]
 }
