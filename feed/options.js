@@ -59,7 +59,7 @@ module.exports = {
     description: 'Tyler Dinner and Michael Dinner, acoustic guitars',
     url: 'http://sonicmultiplicities.audio/3.mp3',
     categories: ['Music'],
-    guid: 0002,
+    guid: 0003,
     author: '▲',
     date: 'Mar 16, 2019',
     enclosure: {
@@ -70,6 +70,40 @@ module.exports = {
     itunesSubtitle: "Sonic Multiplicities #3",
     itunesSummary: 'Tyler Dinner and Michael Dinner, acoustic guitars',
     itunesDuration: 508
+  },
+  {
+    title: '▲▲▲▲',
+    description: 'Garrett Semmelink, violin',
+    url: 'http://sonicmultiplicities.audio/4.mp3',
+    categories: ['Music'],
+    guid: 0004,
+    author: '▲',
+    date: 'Apr 27, 2019',
+    enclosure: {
+      url: 'http://sonicmultiplicities.audio/4.mp3',
+      file: '../releases/4.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: "Sonic Multiplicities #4",
+    itunesSummary: 'Garrett Semmelink, violin',
+    itunesDuration: 1122
+  },
+  {
+    title: '▲▲▲▲▲',
+    description: 'Garrett Semmelink, violin',
+    url: 'http://sonicmultiplicities.audio/5.mp3',
+    categories: ['Music'],
+    guid: 0005,
+    author: '▲',
+    date: 'Apr 27, 2019',
+    enclosure: {
+      url: 'http://sonicmultiplicities.audio/5.mp3',
+      file: '../releases/5.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: "Sonic Multiplicities #5",
+    itunesSummary: 'Garrett Semmelink, violin',
+    itunesDuration: 2272
   },
   ]
 }
