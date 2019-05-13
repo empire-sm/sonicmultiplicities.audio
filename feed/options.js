@@ -122,5 +122,22 @@ module.exports = {
     itunesSummary: 'Garrett Semmelink, violin',
     itunesDuration: 831
   },
+  {
+    title: '▲▲▲▲▲▲▲',
+    description: 'Garrett Semmelink, violin',
+    url: 'http://sonicmultiplicities.audio/7.mp3',
+    categories: ['Music'],
+    guid: 0007,
+    author: '▲',
+    date: 'May 13, 2019',
+    enclosure: {
+      url: 'http://sonicmultiplicities.audio/7.mp3',
+      file: '../releases/7.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: "Sonic Multiplicities #6",
+    itunesSummary: 'Garrett Semmelink, violin',
+    itunesDuration: 810
+  },
   ]
 }
