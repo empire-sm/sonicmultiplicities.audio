@@ -135,7 +135,7 @@ module.exports = {
       file: '../releases/7.mp3',
       type: 'audio/mpeg'
     },
-    itunesSubtitle: "Sonic Multiplicities #6",
+    itunesSubtitle: "Sonic Multiplicities #7",
     itunesSummary: 'Garrett Semmelink, violin',
     itunesDuration: 810
   },
