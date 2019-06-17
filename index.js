@@ -9,5 +9,6 @@ app.use(serve('releases/', { 'index': false }))
 app.use(serve('feed/', { 'index': false }))
 app.use(serve('narratives/', { 'index': false }))
 app.use(serve('garrett/', { 'index': false }))
+app.use(serve('scheduler/', { 'index': false }))
 
 app.listen(process.env.PORT || 8080)
