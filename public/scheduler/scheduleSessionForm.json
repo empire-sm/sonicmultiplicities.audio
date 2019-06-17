@@ -1,0 +1,482 @@
+{
+    "display": "form",
+    "components": [
+        {
+            "label": "Name(s)",
+            "showWordCount": false,
+            "showCharCount": false,
+            "tableView": true,
+            "alwaysEnabled": false,
+            "type": "textfield",
+            "allowMultipleMasks": false,
+            "input": true,
+            "key": "name",
+            "defaultValue": "",
+            "validate": {
+                "customMessage": "",
+                "json": ""
+            },
+            "conditional": {
+                "show": "",
+                "when": "",
+                "json": ""
+            },
+            "inputFormat": "plain",
+            "encrypted": false,
+            "properties": {},
+            "customConditional": "",
+            "logic": [],
+            "widget": {
+                "type": ""
+            },
+            "reorder": false
+        },
+        {
+            "label": "Instrument(s)",
+            "showWordCount": false,
+            "showCharCount": false,
+            "tableView": true,
+            "alwaysEnabled": false,
+            "type": "textfield",
+            "input": true,
+            "key": "instrument",
+            "defaultValue": "",
+            "validate": {
+                "customMessage": "",
+                "json": ""
+            },
+            "conditional": {
+                "show": "",
+                "when": "",
+                "json": ""
+            },
+            "inputFormat": "plain",
+            "encrypted": false,
+            "properties": {},
+            "customConditional": "",
+            "logic": [],
+            "widget": {
+                "type": ""
+            },
+            "reorder": false
+        },
+        {
+            "label": "Extraneous Instrumentation",
+            "tooltip": "Springs, rubber balls, sledge hammer...",
+            "showWordCount": false,
+            "showCharCount": false,
+            "tableView": true,
+            "alwaysEnabled": false,
+            "type": "textfield",
+            "input": true,
+            "key": "extraneousInstrumentation",
+            "defaultValue": "",
+            "validate": {
+                "customMessage": "",
+                "json": ""
+            },
+            "conditional": {
+                "show": "",
+                "when": "",
+                "json": ""
+            },
+            "widget": {
+                "type": ""
+            },
+            "reorder": false,
+            "inputFormat": "plain",
+            "encrypted": false,
+            "properties": {},
+            "customConditional": "",
+            "logic": []
+        },
+        {
+            "label": "SM Type",
+            "mask": false,
+            "tableView": true,
+            "alwaysEnabled": false,
+            "type": "select",
+            "input": true,
+            "key": "smType",
+            "defaultValue": "",
+            "validate": {
+                "select": false,
+                "customMessage": "",
+                "json": ""
+            },
+            "conditional": {
+                "show": "",
+                "when": "",
+                "json": ""
+            },
+            "data": {
+                "values": [
+                    {
+                        "label": "Improvisation",
+                        "value": "improvisation"
+                    },
+                    {
+                        "label": "Composition",
+                        "value": "composition"
+                    },
+                    {
+                        "label": "Experimentation",
+                        "value": "experimentation"
+                    },
+                    {
+                        "label": "Code Assistance",
+                        "value": "codeAssistance"
+                    },
+                    {
+                        "label": "Rehearsal",
+                        "value": "rehearsal"
+                    },
+                    {
+                        "label": "Other",
+                        "value": "other"
+                    }
+                ]
+            },
+            "valueProperty": "value",
+            "selectThreshold": 0.3,
+            "encrypted": false,
+            "properties": {},
+            "customConditional": "",
+            "logic": [],
+            "reorder": false,
+            "lazyLoad": false,
+            "selectValues": "",
+            "disableLimit": false,
+            "sort": "",
+            "reference": false
+        },
+        {
+            "label": "SM Session Goals",
+            "isUploadEnabled": false,
+            "showWordCount": false,
+            "showCharCount": false,
+            "tableView": true,
+            "alwaysEnabled": false,
+            "type": "textarea",
+            "input": true,
+            "key": "smSessionGoals",
+            "defaultValue": "",
+            "validate": {
+                "customMessage": "",
+                "json": ""
+            },
+            "conditional": {
+                "show": "",
+                "when": "",
+                "json": ""
+            },
+            "wysiwyg": "",
+            "uploadUrl": "",
+            "uploadOptions": "",
+            "uploadDir": "",
+            "reorder": false,
+            "inputFormat": "plain",
+            "encrypted": false,
+            "properties": {},
+            "customConditional": "",
+            "logic": []
+        },
+        {
+            "label": "Arrival Time",
+            "mask": false,
+            "tableView": true,
+            "alwaysEnabled": false,
+            "type": "datetime",
+            "input": true,
+            "key": "arrivalTime",
+            "suffix": true,
+            "defaultValue": "",
+            "widget": {
+                "type": "calendar",
+                "displayInTimezone": "viewer",
+                "language": "en",
+                "useLocaleSettings": false,
+                "allowInput": true,
+                "mode": "single",
+                "enableTime": true,
+                "noCalendar": false,
+                "format": "yyyy-MM-dd hh:mm a",
+                "defaultDate": "",
+                "hourIncrement": 1,
+                "minuteIncrement": 1,
+                "time_24hr": false,
+                "minDate": "",
+                "maxDate": "",
+                "icons": "fontawesome",
+                "i18n": {
+                    "lng": "en",
+                    "resources": {
+                        "en": {
+                            "translation": {
+                                "complete": "Submission Complete",
+                                "error": "Please fix the following errors before submitting.",
+                                "required": "{{field}} is required",
+                                "pattern": "{{field}} does not match the pattern {{pattern}}",
+                                "minLength": "{{field}} must be longer than {{length}} characters.",
+                                "maxLength": "{{field}} must be shorter than {{length}} characters.",
+                                "minWords": "{{field}} must have more than {{length}} words.",
+                                "maxWords": "{{field}} must have less than {{length}} words.",
+                                "min": "{{field}} cannot be less than {{min}}.",
+                                "max": "{{field}} cannot be greater than {{max}}.",
+                                "minSelectedCount": "You must select at least {{minCount}} items to continue.",
+                                "maxSelectedCount": "You can only select up to {{maxCount}} items to continue.",
+                                "maxDate": "{{field}} should not contain date after {{- maxDate}}",
+                                "minDate": "{{field}} should not contain date before {{- minDate}}",
+                                "invalid_email": "{{field}} must be a valid email.",
+                                "invalid_url": "{{field}} must be a valid url.",
+                                "invalid_regex": "{{field}} does not match the pattern {{regex}}.",
+                                "invalid_date": "{{field}} is not a valid date.",
+                                "invalid_day": "{{field}} is not a valid day.",
+                                "mask": "{{field}} does not match the mask.",
+                                "stripe": "{{stripe}}",
+                                "month": "Month",
+                                "day": "Day",
+                                "year": "Year",
+                                "january": "January",
+                                "february": "February",
+                                "march": "March",
+                                "april": "April",
+                                "may": "May",
+                                "june": "June",
+                                "july": "July",
+                                "august": "August",
+                                "september": "September",
+                                "october": "October",
+                                "november": "November",
+                                "december": "December",
+                                "next": "Next",
+                                "previous": "Previous",
+                                "cancel": "Cancel",
+                                "submit": "Submit Form"
+                            }
+                        }
+                    }
+                }
+            },
+            "validate": {
+                "customMessage": "",
+                "json": ""
+            },
+            "conditional": {
+                "show": "",
+                "when": "",
+                "json": ""
+            },
+            "datePicker": {
+                "minDate": "",
+                "maxDate": ""
+            },
+            "reorder": false,
+            "encrypted": false,
+            "properties": {},
+            "customConditional": "",
+            "logic": []
+        },
+        {
+            "label": "Session Beginning Date / Time",
+            "mask": false,
+            "tableView": true,
+            "alwaysEnabled": false,
+            "type": "datetime",
+            "input": true,
+            "key": "sessionBeginningDateTime",
+            "suffix": true,
+            "defaultValue": "",
+            "widget": {
+                "type": "calendar",
+                "displayInTimezone": "viewer",
+                "language": "en",
+                "useLocaleSettings": false,
+                "allowInput": true,
+                "mode": "single",
+                "enableTime": true,
+                "noCalendar": false,
+                "format": "yyyy-MM-dd hh:mm a",
+                "defaultDate": "",
+                "hourIncrement": 1,
+                "minuteIncrement": 1,
+                "time_24hr": false,
+                "minDate": "",
+                "maxDate": "",
+                "icons": "fontawesome",
+                "i18n": {
+                    "lng": "en",
+                    "resources": {
+                        "en": {
+                            "translation": {
+                                "complete": "Submission Complete",
+                                "error": "Please fix the following errors before submitting.",
+                                "required": "{{field}} is required",
+                                "pattern": "{{field}} does not match the pattern {{pattern}}",
+                                "minLength": "{{field}} must be longer than {{length}} characters.",
+                                "maxLength": "{{field}} must be shorter than {{length}} characters.",
+                                "minWords": "{{field}} must have more than {{length}} words.",
+                                "maxWords": "{{field}} must have less than {{length}} words.",
+                                "min": "{{field}} cannot be less than {{min}}.",
+                                "max": "{{field}} cannot be greater than {{max}}.",
+                                "minSelectedCount": "You must select at least {{minCount}} items to continue.",
+                                "maxSelectedCount": "You can only select up to {{maxCount}} items to continue.",
+                                "maxDate": "{{field}} should not contain date after {{- maxDate}}",
+                                "minDate": "{{field}} should not contain date before {{- minDate}}",
+                                "invalid_email": "{{field}} must be a valid email.",
+                                "invalid_url": "{{field}} must be a valid url.",
+                                "invalid_regex": "{{field}} does not match the pattern {{regex}}.",
+                                "invalid_date": "{{field}} is not a valid date.",
+                                "invalid_day": "{{field}} is not a valid day.",
+                                "mask": "{{field}} does not match the mask.",
+                                "stripe": "{{stripe}}",
+                                "month": "Month",
+                                "day": "Day",
+                                "year": "Year",
+                                "january": "January",
+                                "february": "February",
+                                "march": "March",
+                                "april": "April",
+                                "may": "May",
+                                "june": "June",
+                                "july": "July",
+                                "august": "August",
+                                "september": "September",
+                                "october": "October",
+                                "november": "November",
+                                "december": "December",
+                                "next": "Next",
+                                "previous": "Previous",
+                                "cancel": "Cancel",
+                                "submit": "Submit Form"
+                            }
+                        }
+                    }
+                }
+            },
+            "validate": {
+                "customMessage": "",
+                "json": ""
+            },
+            "conditional": {
+                "show": "",
+                "when": "",
+                "json": ""
+            },
+            "datePicker": {
+                "minDate": "",
+                "maxDate": ""
+            },
+            "reorder": false,
+            "encrypted": false,
+            "properties": {},
+            "customConditional": "",
+            "logic": []
+        },
+        {
+            "label": "Session End Date / Time",
+            "mask": false,
+            "tableView": true,
+            "alwaysEnabled": false,
+            "type": "datetime",
+            "input": true,
+            "key": "sessionEndDateTime",
+            "suffix": true,
+            "defaultValue": "",
+            "widget": {
+                "type": "calendar",
+                "displayInTimezone": "viewer",
+                "language": "en",
+                "useLocaleSettings": false,
+                "allowInput": true,
+                "mode": "single",
+                "enableTime": true,
+                "noCalendar": false,
+                "format": "yyyy-MM-dd hh:mm a",
+                "defaultDate": "",
+                "hourIncrement": 1,
+                "minuteIncrement": 1,
+                "time_24hr": false,
+                "minDate": "",
+                "maxDate": "",
+                "icons": "fontawesome",
+                "i18n": {
+                    "lng": "en",
+                    "resources": {
+                        "en": {
+                            "translation": {
+                                "complete": "Submission Complete",
+                                "error": "Please fix the following errors before submitting.",
+                                "required": "{{field}} is required",
+                                "pattern": "{{field}} does not match the pattern {{pattern}}",
+                                "minLength": "{{field}} must be longer than {{length}} characters.",
+                                "maxLength": "{{field}} must be shorter than {{length}} characters.",
+                                "minWords": "{{field}} must have more than {{length}} words.",
+                                "maxWords": "{{field}} must have less than {{length}} words.",
+                                "min": "{{field}} cannot be less than {{min}}.",
+                                "max": "{{field}} cannot be greater than {{max}}.",
+                                "minSelectedCount": "You must select at least {{minCount}} items to continue.",
+                                "maxSelectedCount": "You can only select up to {{maxCount}} items to continue.",
+                                "maxDate": "{{field}} should not contain date after {{- maxDate}}",
+                                "minDate": "{{field}} should not contain date before {{- minDate}}",
+                                "invalid_email": "{{field}} must be a valid email.",
+                                "invalid_url": "{{field}} must be a valid url.",
+                                "invalid_regex": "{{field}} does not match the pattern {{regex}}.",
+                                "invalid_date": "{{field}} is not a valid date.",
+                                "invalid_day": "{{field}} is not a valid day.",
+                                "mask": "{{field}} does not match the mask.",
+                                "stripe": "{{stripe}}",
+                                "month": "Month",
+                                "day": "Day",
+                                "year": "Year",
+                                "january": "January",
+                                "february": "February",
+                                "march": "March",
+                                "april": "April",
+                                "may": "May",
+                                "june": "June",
+                                "july": "July",
+                                "august": "August",
+                                "september": "September",
+                                "october": "October",
+                                "november": "November",
+                                "december": "December",
+                                "next": "Next",
+                                "previous": "Previous",
+                                "cancel": "Cancel",
+                                "submit": "Submit Form"
+                            }
+                        }
+                    }
+                }
+            },
+            "validate": {
+                "customMessage": "",
+                "json": ""
+            },
+            "conditional": {
+                "show": "",
+                "when": "",
+                "json": ""
+            },
+            "datePicker": {
+                "minDate": "",
+                "maxDate": ""
+            },
+            "reorder": false,
+            "encrypted": false,
+            "properties": {},
+            "customConditional": "",
+            "logic": []
+        },
+        {
+            "type": "button",
+            "label": "Submit",
+            "key": "submit",
+            "disableOnInvalid": true,
+            "theme": "primary",
+            "input": true,
+            "tableView": true
+        }
+    ]
+}
