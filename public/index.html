@@ -128,6 +128,40 @@
       }
     }
 
+    function getQualities(data) {
+      console.log(data)
+      return data.id;
+    }
+
+    var audioLabelCounter = 0
+
+    function getTrackLabels(data) {
+      console.log(data)
+      if (!data.mimeType) {
+        return;
+      }
+      
+      if (data.mimeType.indexOf('audio') >= 0) {
+        audioLabelCounter += 1;
+        console.log(audioLabelCounter)
+        switch (audioLabelCounter) {
+          case 1:
+          case 3:
+            console.log(audioLabelCounter);
+            return 'DEFAULT';
+            break;
+          case 2:
+          case 4:
+            console.log(audioLabelCounter);
+            return 'VIOLIN';
+            break;
+        }
+        return data.lang.toUpperCase();
+      }
+
+      return data.lang;
+    }
+
     var container = document.getElementById('player');
     var player = new bitmovin.player.Player(container, config);
 
@@ -145,7 +179,12 @@
 					type: 'video/webm',
 					bitrate: 500000,
 					label: 'WebM'
-				}]
+				}],
+      "labeling": {
+        dash: {
+          tracks: getTrackLabels
+        }
+      }
     };
 		
 		player.load(source).then(
