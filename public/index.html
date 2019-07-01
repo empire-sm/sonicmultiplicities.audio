@@ -154,6 +154,10 @@ function skipToNext() {
   console.log('now playing ' + playlist[i].title);
   i++;
   document.getElementById('upnext').innerHTML = copy[i+1].title
+  document.getElementById('copytitle').innerHTML = copy[i].title
+  document.getElementById('copyperfs').innerHTML = copy[i].performers
+  document.getElementById('copyinstr').innerHTML = copy[i].instruments
+  document.getElementById('copydesc').innerHTML = copy[i].desc
 }
 
     function getQualities(data) {
