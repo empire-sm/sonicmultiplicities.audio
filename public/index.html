@@ -55,13 +55,13 @@
           instruments: "Violin",
           desc: ""
         },{
-          title: "PERSPECTRUM PERSPECTRE",
-          performers: "TYLER DINNER & JOSEPH WERLE",
+          title: "ARTIFICES #1",
+          performers: "TYLER DINNER & MICHAEL DINNER",
           instruments: "Guitars",
           desc: ""
         },{
-          title: "ARTIFICES #1",
-          performers: "TYLER DINNER & MICHAEL DINNER",
+          title: "PERSPECTRUM PERSPECTRE",
+          performers: "TYLER DINNER & JOSEPH WERLE",
           instruments: "Guitars",
           desc: ""
         },{
@@ -91,13 +91,13 @@
             "description": "Garrett Semmelink: Violin",
             "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash03/manifest.mpd",
           },{                   
-            "title": "PERSPECTRUM PERSPECTRE",            
-            "description": "Tyler Dinner & Joseph Werle: Guitars",
-            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash01/manifest.mpd",
-          },{
             "title": "ARTIFICES #1",
             "description": "Michael Dinner & Tyler Dinner: Guitars",
             "progressive": "//s3.amazonaws.com/sonicmultiplicities.audio/videos/ARTIFICES%231.mov",
+          },{
+            "title": "PERSPECTRUM PERSPECTRE",            
+            "description": "Tyler Dinner & Joseph Werle: Guitars",
+            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash01/manifest.mpd",
           },{
             "title": "TITAN",
             "description": "Garrett Semmelink: Violin",
@@ -110,11 +110,13 @@
         ]     
                                                                        
     var i = 0;
+    var audioLabelCounter = 0;
+
     var config = {                        
-      key: "7c092ea3-ba3a-424b-be41-1135077edcd3",                                                                                            
-      events: {           
+      key: "7c092ea3-ba3a-424b-be41-1135077edcd3",
+      events: {
             playbackfinished: function () {
-                if (i < playlist.length) {                                                                                                    
+                if (i < playlist.length) {
                     player.load({dash: playlist[i].dash, hls: playlist[i].hls, progressive: playlist[i].progressive});
                     console.log('now playing ' + playlist[i].title);
                     i++;
@@ -125,7 +127,7 @@
                 }
             },
             ready: function () {
-                if (i > 0) {                                           
+                if (i > 0) {
                     player.play();
                 }
             }
@@ -143,7 +145,6 @@
       return data.id;
     }
 
-    var audioLabelCounter = 0
 
     function getTrackLabels(data) {
       console.log(data)
