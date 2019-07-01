@@ -31,6 +31,9 @@
             brightness(0.4) sepia(1) saturate(1000%);}
     </style>
 <center>
+  Up Next:
+  <div id="upnext"></div>
+  <button id="skip" onclick="skipToNext()">Skip</button>
   <div id="player"></div>
   <script>
                                                                        
@@ -114,6 +117,9 @@
     var i = 0;
     var audioLabelCounter = 0;
 
+    document.getElementById('upnext').innerHTML = copy[i+1].title;
+
+
     var config = {                        
       key: "7c092ea3-ba3a-424b-be41-1135077edcd3",
       events: {
@@ -126,6 +132,7 @@
                     document.getElementById('copyperfs').innerHTML = copy[i].performers
                     document.getElementById('copyinstr').innerHTML = copy[i].instruments
                     document.getElementById('copydesc').innerHTML = copy[i].desc
+                    document.getElementById('upnext').innerHTML = copy[i+1].title
                 }
             },
             ready: function () {
@@ -141,6 +148,13 @@
         width: '50%'
       }
     }
+
+function skipToNext() {
+  player.load({dash: playlist[i].dash, hls: playlist[i].hls, progressive: playlist[i].progressive});
+  console.log('now playing ' + playlist[i].title);
+  i++;
+  document.getElementById('upnext').innerHTML = copy[i+1].title
+}
 
     function getQualities(data) {
       console.log(data)
