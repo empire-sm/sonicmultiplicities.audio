@@ -11,6 +11,8 @@
         <!-- Bootstrap -->
         <link href="//fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
   <script type="text/javascript" src="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
+  <script type="text/javascript" src="myapp.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/2.5.4/shaka-player.compiled.js"></script>
 	</head>
 	<body background="bg.png" background-size="contain" style="opacity=0.2;">
     <style>
@@ -31,10 +33,10 @@
             brightness(0.4) sepia(1) saturate(1000%);}
     </style>
 <center>
+  <!--
   Up Next:
   <div id="upnext"></div>
   <button id="skip" onclick="skipToNext()">Skip</button>
-  <div id="player"></div>
   <script>
                                                                        
         var copy = [{
@@ -213,15 +215,15 @@ function skipToNext() {
       return data.lang;
     }
 
-    var container = document.getElementById('player');
-    var player = new bitmovin.player.Player(container, config);
+    // var container = document.getElementById('player');
+    // var player = new bitmovin.player.Player(container, config);
 
     var source = {
-        "title": "LIVE: April 22, 2019",
-        "description": "Garrett Semmelink: Violin",
-        "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/videos/04222019-garrett2/stream2.mpd",
-        "poster": "//sonicmultiplicities.audio/triangle-16x9.png",
-				"progressive": [{
+        title: "LIVE: April 22, 2019",
+        description: "Garrett Semmelink: Violin",
+        dash: "//s3.amazonaws.com/sonicmultiplicities.audio/videos/04222019-garrett2/stream2.mpd",
+        poster: "//sonicmultiplicities.audio/triangle-16x9.png",
+				progressive: [{
 					url: 'http://s3.amazonaws.com/sonicmultiplicities.audio/videos/f.mov',
 					type: 'video/mp4',
 					bitrate: 500000,
@@ -232,36 +234,23 @@ function skipToNext() {
 					bitrate: 500000,
 					label: 'WebM'
 				}],
-      "labeling": {
+      labeling: {
         dash: {
           tracks: getTrackLabels
         }
       }
     };
-		
-		player.load(source).then(
-						function(player) {
-										console.log('Successfully created Bitmovin Player instance');
-						},
-						function(reason) {
-										console.log('Error while creating Bitmovin Player instance');
-						}
-		);
 
 
 </script>
-      <!--
-      <center>
-        <video width=720 controls data-dashjs-player autoplay class="my_class_name">
-          <source data-dashjs-player autoplay src="http://s3.amazonaws.com/sonicmultiplicities.audio/videos/04222019-garrett2/stream2.mpd" width=720 controls>
-          <source autoplay src="http://s3.amazonaws.com/sonicmultiplicities.audio/videos/f.mov" width=720 controls>
-          <source src="http://s3.amazonaws.com/sonicmultiplicities.audio/f.webm" controls width=720>
-        </video>
-      <video width=720 controls autoplay>
-        <source src="http://s3.amazonaws.com/sonicmultiplicities.audio/t-bw.mov"></source>
-      </video>
-      -->
+-->
+  <video id="video"
+         width="640"
+         poster="//shaka-player-demo.appspot.com/assets/poster.jpg"
+         controls autoplay>
+  </video>
       <br>
+      <!--
       <h1 style="font-family:Passion One;" id="copytitle"><b>A SONICMULTIPLICITIES 1.2 ENCOUNTER</b></h1>
       <h1 style="font-family:Passion One;" id="copyperfs">GARRETT SEMMELINK</h1>
       <h4 style="font-family:Passion One;" id="copyinstr">Violin & Vocals</h4>
@@ -269,6 +258,7 @@ function skipToNext() {
       Recorded *live* on Monday, April 22 2019 in Brookyln, NY.<br>No edits, mixing, or mastering of audio was applied to this recording.
       </p>
       <br>
+      -->
       <br>
       <div id="explain" style="margin: 60px 50px; font-family:'Titillium Web', sans-serif;">
         <h1>
