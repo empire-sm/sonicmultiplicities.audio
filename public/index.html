@@ -13,6 +13,7 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.js"></script>
   <script src="//cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js"></script>
 	</head>
 	<body background="bg.png" background-size="contain" style="opacity=0.2;">
     <style>
@@ -247,7 +248,10 @@ function skipToNext() {
   <div id="player"></div>
   <script>
     var player = new Clappr.Player({
-      source: '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash10/dash.mpd',
+      sources: [
+        '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash10/dash.mpd',
+        '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.preview.mp4'
+      ],
       plugins: [DashShakaPlayback, LevelSelector],
       autoPlay: true,
       poster: '//pbs.twimg.com/media/EArpq-0UIAAwRwv?format=jpg&name=medium',
@@ -261,6 +265,13 @@ function skipToNext() {
       },
       disableVideoTagContextMenu: true,
       hideMediaControlDelay: 1000,
+      chromecast: {
+        appId: '9DFB77C0',
+        contentType: 'video/mp4',
+        media: {
+          type: ChromecastPlugin.None,
+        }
+      },
       parentId: "#player"
     });
   </script>
