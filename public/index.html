@@ -247,11 +247,25 @@ function skipToNext() {
 -->
   <div id="player"></div>
   <script>
+      hasMSE = function() {
+        var mse = "MediaSource" in win || "WebKitMediaSource" in win;
+        return !!mse;
+      }
+/*
+
+      if ( hasMSE )
+      {   
+        source = mpd;
+        playback = DashShakaPlayback;
+      }   
+      else
+      {   
+        source = hls;
+        playback = Clappr.FlasHLS;
+      }
+      */
     var player = new Clappr.Player({
-      sources: [
-        { source: '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash10/dash.mpd', mimeType: 'application/dash+xml' },
-        { source: '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov', mimeType: 'video/quicktime' }
-      ],
+      source: hasMSE ? '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash10/dash.mpd' : '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov',
       plugins: [DashShakaPlayback, LevelSelector],
       autoPlay: true,
       poster: '//pbs.twimg.com/media/EArpq-0UIAAwRwv?format=jpg&name=medium',
