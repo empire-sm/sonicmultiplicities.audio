@@ -10,9 +10,9 @@
 	  <meta charset="UTF-8">
         <!-- Bootstrap -->
         <link href="//fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
-  <script type="text/javascript" src="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
-  <script type="text/javascript" src="myapp.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/2.5.4/shaka-player.compiled.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
 	</head>
 	<body background="bg.png" background-size="contain" style="opacity=0.2;">
     <style>
@@ -244,11 +244,23 @@ function skipToNext() {
 
 </script>
 -->
-  <video id="video"
-         width="640"
-         poster="//pbs.twimg.com/media/EArpq-0UIAAwRwv?format=jpg&name=medium"
-         controls autoplay>
-  </video>
+  <div id="player"></div>
+  <script>
+    var player = new Clappr.Player({
+      source: '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash10/dash.mpd',
+      plugins: [DashShakaPlayback, LevelSelector],
+      autoPlay: true,
+      watermark: "http://sonicmultiplicities.audio/tri-alpha.png", position: 'bottom-left',
+      watermarkLink: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.preview.mp4',
+      shakaConfiguration: {
+        preferredAudioLanguage: 'en-US',
+        streaming: {
+          rebufferingGoal: 15
+        }         
+      },
+      parentId: "#player"
+    });
+  </script>
       <br>
       <!--
       <h1 style="font-family:Passion One;" id="copytitle"><b>A SONICMULTIPLICITIES 1.2 ENCOUNTER</b></h1>
