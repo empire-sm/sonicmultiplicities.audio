@@ -288,6 +288,15 @@ function skipToNext() {
       },
       parentId: "#player"
     });
+
+/* Make the bouncy balls into triangles to be more SM-ey yo */
+
+var bouncyList = document.getElementsByClassName("spinner-three-bounce");
+
+bouncyList[0].children[0].textContent = '▲'
+bouncyList[0].children[1].textContent = '▲'
+bouncyList[0].children[2].textContent = '▲'
+
   </script>
       <br>
       <!--
