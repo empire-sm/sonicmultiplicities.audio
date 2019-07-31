@@ -249,8 +249,8 @@ function skipToNext() {
   <script>
     var player = new Clappr.Player({
       sources: [
-        '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash10/dash.mpd',
-        '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.preview.mp4'
+        { source: '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash10/dash.mpd', mimeType: 'application/dash+xml' },
+        { source: '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov', mimeType: 'video/quicktime' }
       ],
       plugins: [DashShakaPlayback, LevelSelector],
       autoPlay: true,
