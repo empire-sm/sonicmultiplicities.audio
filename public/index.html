@@ -14,6 +14,7 @@
   <script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.js"></script>
   <script src="//cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr-pip-plugin@latest/dist/clappr-pip-plugin.js"></script>
 	</head>
 	<body background="bg.png" background-size="contain" style="opacity=0.2;">
     <style>
@@ -266,7 +267,7 @@ function skipToNext() {
       */
     var player = new Clappr.Player({
       source: hasMSE ? '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash12/dash.mpd' : '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov',
-      plugins: [DashShakaPlayback, LevelSelector, ChromecastPlugin],
+      plugins: [DashShakaPlayback, LevelSelector, ChromecastPlugin, ClapprPIPPlugin],
       autoPlay: true,
       poster: '//pbs.twimg.com/media/EArpq-0UIAAwRwv?format=jpg&name=medium',
       watermark: "http://sonicmultiplicities.audio/tri-alpha.png", position: 'bottom-left',
