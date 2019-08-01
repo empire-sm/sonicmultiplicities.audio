@@ -265,8 +265,8 @@ function skipToNext() {
       }
       */
     var player = new Clappr.Player({
-      source: hasMSE ? '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash10/dash.mpd' : '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov',
-      plugins: [DashShakaPlayback, LevelSelector],
+      source: hasMSE ? '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash12/dash.mpd' : '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov',
+      plugins: [DashShakaPlayback, LevelSelector, ChromecastPlugin],
       autoPlay: true,
       poster: '//pbs.twimg.com/media/EArpq-0UIAAwRwv?format=jpg&name=medium',
       watermark: "http://sonicmultiplicities.audio/tri-alpha.png", position: 'bottom-left',
