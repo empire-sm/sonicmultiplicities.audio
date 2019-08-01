@@ -271,6 +271,11 @@ function skipToNext() {
       poster: '//pbs.twimg.com/media/EArpq-0UIAAwRwv?format=jpg&name=medium',
       watermark: "http://sonicmultiplicities.audio/tri-alpha.png", position: 'bottom-left',
       watermarkLink: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.preview.mp4',
+      playback: {
+        preload: 'metadata',
+        playInline: true,
+      },
+      recycleVideo: Clappr.Browser.isMobile,
       shakaConfiguration: {
         preferredAudioLanguage: 'en-US',
         streaming: {
