@@ -16,8 +16,8 @@ module.exports = {
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesExplicit: false,
     itunesCategory: [
-      { "text": "Music" },
       { "text": "Arts", "subcats": [ { "text": "Performing Arts" } ] },
+      { "text": "Music", "subcats": [ { "text": "Music Commentary" }, { "text": "Music Interviews" } ] },
       { "text": "Society & Culture", "subcats": [ { "text": "Personal Journals" } ] }
     ],
     itunesAuthor: 'Andrew Grathwohl'
