@@ -35,237 +35,13 @@
             brightness(0.4) sepia(1) saturate(1000%);}
     </style>
 <center>
-  <!--
-  Up Next:
-  <div id="upnext"></div>
-  <button id="skip" onclick="skipToNext()">Skip</button>
-  <script>
-                                                                       
-        var copy = [{
-          title: "A SONICMULTIPLICITIES 1.2 ENCOUNTER",
-          performers: "GARRETT SEMMELINK",
-          instruments: "Violin & Vocals",
-          desc: "Recorded *live* on Monday, April 22 2019 in Brookyln, NY. No edits, mixing, or mastering of audio was applied to this recording. Switch the audio tracks on the player above to hear the raw violin-only audio!"
-        },{
-          title: "CMYK",
-          performers: "TYLER DINNER",
-          instruments: "Guitar",
-          desc: ""
-        },{
-          title: "HEAD IN THE CLOUDS",
-          performers: "GARRETT SEMMELINK",
-          instruments: "Violin",
-          desc: ""
-        },{
-          title: "L'ange",
-          performers: "GARRETT SEMMELINK",
-          instruments: "Violin",
-          desc: ""
-        },{
-          title: "ARTIFICES #1",
-          performers: "TYLER DINNER & MICHAEL DINNER",
-          instruments: "Guitars",
-          desc: ""
-        },{
-          title: "MIASMA",
-          performers: "GARRETT SEMMELINK",
-          instruments: "Violin",
-          desc: ""
-        },{
-          title: "TITAN",
-          performers: "GARRETT SEMMELINK",
-          instruments: "Violin",
-          desc: ""
-        },{
-          title: "SEEKING THE MONKEY KING",
-          performers: "GARRETT SEMMELINK",
-          instruments: "Violin",
-          desc: ""
-        },{
-          title: "DEAD SLOW AHEAD",
-          performers: "GARRETT SEMMELINK",
-          instruments: "Violin",
-          desc: ""
-        }]
-
-        var playlist = [
-          {                                           
-            "title": "CMYK",                                   
-            "description": "Tyler Dinner: Guitar",
-            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash02/manifest.mpd",
-            "hls": "//s3.amazonaws.com/sonicmultiplicities.audio/hls_streams/hls02/cmyk.m3u8",
-            "progressive": "//s3.amazonaws.com/sonicmultiplicities.audio/videos/cmyk-improved.mov",
-          },{
-            "title": "Head in the Clouds",
-            "description": "Garrett Semmelink: Violin",
-            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash05/manifest.mpd",
-            "hls": "//s3.amazonaws.com/sonicmultiplicities.audio/hls_streams/hls05/hitc.m3u8",
-            "progressive": "//s3.amazonaws.com/sonicmultiplicities.audio/hitc_small.mov"
-          },{
-            "title": "L'ange",
-            "description": "Garrett Semmelink: Violin",
-            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash08/manifest.mpd",
-            "progressive": "//s3.amazonaws.com/sonicmultiplicities.audio/videos/lange.mov",
-          },{
-            "title": "ARTIFICES #1",
-            "description": "Michael Dinner & Tyler Dinner: Guitars",
-            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash06/manifest.mpd",
-            "hls": "//s3.amazonaws.com/sonicmultiplicities.audio/hls_streams/hls06/artifices.m3u8",
-            "progressive": "//s3.amazonaws.com/sonicmultiplicities.audio/videos/ARTIFICES%231.mov",
-          },{
-            "title": "MIASMA",
-            "description": "Garrett Semmelink: Violin",
-            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash03/manifest.mpd",
-            "hls": "//s3.amazonaws.com/sonicmultiplicities.audio/hls_streams/hls03/miasma.m3u8",
-            "progressive": "//s3.amazonaws.com/sonicmultiplicities.audio/videos/miasma_progressive.mov",
-          },{
-            "title": "TITAN",
-            "description": "Garrett Semmelink: Violin",
-            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash04/manifest.mpd",
-            "hls": "//s3.amazonaws.com/sonicmultiplicities.audio/hls_streams/hls04/titan.m3u8",
-            "progressive": "//s3.amazonaws.com/sonicmultiplicities.audio/videos/TITAN.mov",
-          },{
-            "title": "SEEKING THE MONKEY KING",
-            "description": "Garrett Semmelink: Violin",
-            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash09/manifest.mpd",
-            "progressive": "//s3.amazonaws.com/sonicmultiplicities.audio/videos/MONKEY.mov",
-          },{
-            "title": "DEAD SLOW AHEAD",
-            "description": "Garrett Semmelink: Violin",
-            "dash": "//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash07/manifest.mpd",
-            "hls": "//s3.amazonaws.com/sonicmultiplicities.audio/hls_streams/hls07/deadslow.m3u8",
-            "progressive": "//s3.amazonaws.com/sonicmultiplicities.audio/videos/DEADSLOW.mov"
-          }
-        ]     
-                                                                       
-    var i = 0;
-    var audioLabelCounter = 0;
-
-    document.getElementById('upnext').innerHTML = copy[i+1].title;
-
-
-    var config = {                        
-      key: "7c092ea3-ba3a-424b-be41-1135077edcd3",
-      events: {
-            playbackfinished: function () {
-                if (i < playlist.length) {
-                    player.load({dash: playlist[i].dash, hls: playlist[i].hls, progressive: playlist[i].progressive});
-                    console.log('now playing ' + playlist[i].title);
-                    i++;
-                    document.getElementById('copytitle').innerHTML = copy[i].title
-                    document.getElementById('copyperfs').innerHTML = copy[i].performers
-                    document.getElementById('copyinstr').innerHTML = copy[i].instruments
-                    document.getElementById('copydesc').innerHTML = copy[i].desc
-                    document.getElementById('upnext').innerHTML = copy[i+1].title
-                }
-            },
-            ready: function () {
-                if (i > 0) {
-                    player.play();
-                }
-            }
-      },
-      cast: {
-        enable: true
-      },
-      style: {
-        width: '50%'
-      }
-    }
-
-function skipToNext() {
-  player.load({dash: playlist[i].dash, hls: playlist[i].hls, progressive: playlist[i].progressive});
-  console.log('now playing ' + playlist[i].title);
-  i++;
-  document.getElementById('upnext').innerHTML = copy[i+1].title
-  document.getElementById('copytitle').innerHTML = copy[i].title
-  document.getElementById('copyperfs').innerHTML = copy[i].performers
-  document.getElementById('copyinstr').innerHTML = copy[i].instruments
-  document.getElementById('copydesc').innerHTML = copy[i].desc
-}
-
-    function getQualities(data) {
-      console.log(data)
-      return data.id;
-    }
-
-
-    function getTrackLabels(data) {
-      console.log(data)
-      if (!data.mimeType) {
-        return;
-      }
-      
-      if (data.mimeType.indexOf('audio') >= 0) {
-        audioLabelCounter += 1;
-        console.log(audioLabelCounter)
-        switch (audioLabelCounter) {
-          case 1:
-          case 3:
-            console.log(audioLabelCounter);
-            return 'DEFAULT';
-            break;
-          case 2:
-          case 4:
-            console.log(audioLabelCounter);
-            return 'VIOLIN';
-            break;
-        }
-        return data.lang.toUpperCase();
-      }
-
-      return data.lang;
-    }
-
-    // var container = document.getElementById('player');
-    // var player = new bitmovin.player.Player(container, config);
-
-    var source = {
-        title: "LIVE: April 22, 2019",
-        description: "Garrett Semmelink: Violin",
-        dash: "//s3.amazonaws.com/sonicmultiplicities.audio/videos/04222019-garrett2/stream2.mpd",
-        poster: "//sonicmultiplicities.audio/triangle-16x9.png",
-				progressive: [{
-					url: 'http://s3.amazonaws.com/sonicmultiplicities.audio/videos/f.mov',
-					type: 'video/mp4',
-					bitrate: 500000,
-					label: 'QuickTime'
-				}, {
-					url: 'http://s3.amazonaws.com/sonicmultiplicities.audio/f.webm',
-					type: 'video/webm',
-					bitrate: 500000,
-					label: 'WebM'
-				}],
-      labeling: {
-        dash: {
-          tracks: getTrackLabels
-        }
-      }
-    };
-
-
-</script>
--->
   <div id="player"></div>
   <script>
       hasMSE = function() {
         var mse = "MediaSource" in win || "WebKitMediaSource" in win;
         return !!mse;
       }
-/*
-
-      if ( hasMSE )
-      {   
-        source = mpd;
-        playback = DashShakaPlayback;
-      }   
-      else
-      {   
-        source = hls;
-        playback = Clappr.FlasHLS;
-      }
-      */
-    var player = new Clappr.Player({
+  var player = new Clappr.Player({
       source: hasMSE ? '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash12/dash.mpd' : '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov',
       plugins: [DashShakaPlayback, LevelSelector, ChromecastPlugin, ClapprPIPPlugin],
       autoPlay: true,
@@ -302,19 +78,15 @@ var bouncyList = document.getElementsByClassName("spinner-three-bounce");
 bouncyList[0].children[0].textContent = '▲'
 bouncyList[0].children[1].textContent = '▲'
 bouncyList[0].children[2].textContent = '▲'
-
   </script>
-      <br>
-      <!--
-      <h1 style="font-family:Passion One;" id="copytitle"><b>A SONICMULTIPLICITIES 1.2 ENCOUNTER</b></h1>
-      <h1 style="font-family:Passion One;" id="copyperfs">GARRETT SEMMELINK</h1>
-      <h4 style="font-family:Passion One;" id="copyinstr">Violin & Vocals</h4>
-      <p style="font-family:'Titillium Web', sans-serif;" id="copydesc">
-      Recorded *live* on Monday, April 22 2019 in Brookyln, NY.<br>No edits, mixing, or mastering of audio was applied to this recording.
-      </p>
-      <br>
-      -->
-      <br>
+
+  <h1>
+  <a href="https://sonicmultiplicities.audio/feed.xml"><b><i class="fas fa-rss"></i></b></a>
+  <a href="https://sonicmultiplicities.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+  <a href="https://www.discogs.com/artist/7242131-Empire-Garrett-Semmelink"><i class="fas fa-compact-disc"></i></a>
+  <a href="https://twitter.com/EmpireSM_"><i class="fab fa-twitter"></i></a>
+  <a href="mailto://sm@grathwohl.me"><i class="fas fa-envelope"></i></a>
+  </h1>
       <div id="explain" style="margin: 60px 50px; font-family:'Titillium Web', sans-serif;">
         <h1>
           <b><u>What Is ▲?</u></b>
@@ -340,8 +112,6 @@ bouncyList[0].children[2].textContent = '▲'
           Personal computing should have generated a new musical golden age when it first hit humanity back in the late eighties. Unfortunately, it has generally served not to expand musical possibilities, but rather to make more expedient antiquated and boring traditions from past musical eras. From DAW applications to streaming audio delivery platforms, music technology has promoted laziness, cut fans off from points of engagement, and left us stranded with no record stores from which to seek advice, nor any digital solutions for those seeking an alternative approach.
         </p>-->
       </div>
-      <br>
-      <br>
       <div id="documents" style="margin: 60px 50px; font-family:'Titillium Web', sans-serif;">
           <h1>Documents</h1>
           <p><a href="/documents/checklist.pdf"><b>Performance Checklist</b></a></p>
@@ -349,9 +119,6 @@ bouncyList[0].children[2].textContent = '▲'
           <p><a href="/documents/sonicengagement.pdf"><b>Rules for Sonic Engagement</b></a></p>
       </div>
       <br>
-          <h1>CONTACT/LINKS</h1>
-      <h2><a href="mailto://andrew@grathwohl.me"><i class="fas fa-envelope"></i></a> <a href="https://sonicmultiplicities.bandcamp.com/"><i class="fab fa-bandcamp"></i></a> <a href="https://twitter.com/EmpireSM_"><i class="fab fa-twitter"></i></a>  <a href="https://www.discogs.com/artist/7242131-Empire-Garrett-Semmelink"><i class="fas fa-compact-disc"></i></a></h2>
-      <br><br><br>
       </center>
       <p>
       Nowhere and nothing on this website will track you - ever. I am vehemently opposed to such nonsense. I will never punish people for posing an interest in my work. Thank you for your visit. -<b>AG</b>

@@ -1,6 +1,6 @@
 const fs = require('fs')
 const Podcast = require('podcast')
-const feedOptions = require('./options')
+const feedOptions = require('./newoptions')
 
 const feed = new Podcast(feedOptions.feed)
 
