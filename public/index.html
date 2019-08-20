@@ -22,18 +22,23 @@
       <div id="player" style=""></div>
       <script>
       hasMSE = function() {
-        var mse = "MediaSource" in win || "WebKitMediaSource" in win;
+        var mse = "MediaSource" in window || "WebKitMediaSource" in window;
         return !!mse;
       }
+console.log(hasMSE())
   var player = new Clappr.Player({
-      source: hasMSE ? '//s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash12/dash.mpd' : '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov',
+    /*
+      sources: [
+        'https://s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash12/dash.mpd',
+        'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injtime.mp4'
+      ],*/
+      source: hasMSE() ? 'https://s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash12/dash.mpd' : 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injtime.mp4',
       plugins: [DashShakaPlayback, LevelSelector, ChromecastPlugin, ClapprPIPPlugin],
       autoPlay: true,
       poster: '//pbs.twimg.com/media/EArpq-0UIAAwRwv?format=jpg&name=medium',
-      watermark: "https://sonicmultiplicities.audio/tri-alpha.png", position: 'bottom-left',
-      watermarkLink: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.preview.mp4',
+      watermark: "//sonicmultiplicities.audio/tri-alpha.png", position: 'bottom-left',
+      watermarkLink: '//s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov',
       playback: {
-        preload: 'metadata',
         playInline: true,
       },
       recycleVideo: Clappr.Browser.isMobile,
