@@ -1,0 +1,86 @@
+<html lang="en">
+  <title>SA001: INJECTION TIME LAPSE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.mediasession.min.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="//unpkg.com/tachyons/css/tachyons.min.css">
+<style>
+div#spinny {margin: 30px 0px; width: 90px;height: 90px;-webkit-animation-name: spin;-webkit-animation-duration: 4000ms;-webkit-animation-iteration-count: 1;-webkit-animation-timing-function: linear;-webkit-animation-fill-mode: forwards;-moz-animation-name: spin;-moz-animation-duration: 4000ms;-moz-animation-iteration-count: 1;-moz-animation-timing-function: linear;-moz-animation-fill-mode: forwards;-ms-animation-name: spin;-ms-animation-duration:
+  4000ms;-ms-animation-iteration-count: 1;-ms-animation-timing-function: linear;-ms-animation-fill-mode: forwards;animation-name: spin;animation-duration: 4000ms;animation-iteration-count: 1;animation-timing-function: linear;animation-fill-mode: forwards;}@-ms-keyframes spin {from {-ms-transform: rotate(0deg);}to {-ms-transform: rotate(90deg);}}@-moz-keyframes spin {from {-moz-transform: rotate(0deg);}to {-moz-transform: rotate(90deg);}}@-webkit-keyframes spin {from
+  {-webkit-transform: rotate(0deg);}to {-webkit-transform: rotate(90deg);}}@keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(90deg);}}
+</style>
+  </head>
+  <body style="color:#EEEEEE;background-color:#000000;">
+    <div id="track-info">
+      <div id="ti-left" class="fl w-90">
+        <h1>SA001<h1>
+        <h2>INJECTION TIME LAPSE</h2>
+      </div>
+      <div id="ti-right" class="fl w-10">
+        <h3>Brooklyn, NY</h3>
+        <h3>July 26, 2019</h3>
+        <h4>19:15 - 19:45</h4>
+      </div>
+    </div>
+    <div id="playa">
+      <div id="spinny" class="fl w-10" style="margin:30px 0px;">
+        <h1 style="font-size:70px;">▲</h1>
+      </div>
+    <div id="theaction" class="fl w-90">
+    <div id="waveform"></div>
+    <div id="timeline"></div>
+    <div id="performer-info">
+      <center>
+      <h2>Garrett Semmelink</h2>
+      <h3>Violin, Prepared Violin, Hand Percussion, Voice</h3>
+      </center>
+    </div>
+    <!--
+    <h2>DOWNLOADS</h2>
+    <div id="dl-info">
+      <h4><a class="link dim hover-dark-red" href="https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov">MOV</a></h4>
+      <h4><a class="link dim hover-dark-red" href="https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.flac">FLAC</a></h4>
+      <h4><a class="link dim hover-dark-red"href="https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.opus">OPUS</a></h4>
+      <h4><a class="link dim hover-dark-red"href="https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.mp3">MP3</a></h4>
+    </div>
+    -->
+    </div>
+    </div>
+    <script>
+    var WaveSurfer = window.WaveSurfer;
+    var TimelinePlugin = window.WaveSurfer.timeline;
+    var MinimapPlugin = window.WaveSurfer.minimap;
+    var SessionPlugin = window.WaveSurfer.mediasession;
+
+    var wavesurfer = WaveSurfer.create({
+        container: '#waveform',
+        waveColor: 'red',
+      plugins: [
+        TimelinePlugin.create({
+          container: '#timeline',
+          fontFamily: "'Titillium Web', sans-serif;",
+          primaryFontColor: '#EEE',
+          secondaryFontColor: '#EEE',
+        }),
+        SessionPlugin.create({
+          title: 'Injection Time Lapse',
+          artist: '▲',
+          album: 'SA001: Injection Time Lapse',
+          artwork: [
+            { src: 'https://f4.bcbits.com/img/a2310147179_10.jpg',   sizes: '1200x1200',   type: 'image/jpeg' }
+          ]
+        })
+      ]
+    });
+
+    wavesurfer.on('ready', function () {
+          wavesurfer.play(); 
+    });
+
+    wavesurfer.load('https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.mp3');
+    </script>
+  </body>
+</html>

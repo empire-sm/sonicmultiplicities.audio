@@ -31,11 +31,6 @@
       }
 console.log(hasMSE())
   var player = new Clappr.Player({
-    /*
-      sources: [
-        'https://s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash12/dash.mpd',
-        'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injtime.mp4'
-      ],*/
       source: hasMSE() ? 'https://s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash12/dash.mpd' : 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injtime.mp4',
       plugins: [DashShakaPlayback, LevelSelector, ChromecastPlugin, ClapprPIPPlugin],
       autoPlay: true,
