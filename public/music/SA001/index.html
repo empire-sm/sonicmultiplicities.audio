@@ -32,13 +32,7 @@ div#spinny {margin: 30px 0px; width: 90px;height: 90px;-webkit-animation-name: s
         <h1 style="font-size:70px;" onclick="wavesurfer.playPause()">▲</h1>
       </div>
       <div id="theaction" class="fl w-90">
-        <div id="waveform">
-          <div id="rudetext">
-            <center>
-            <h6>LOADING THE WAVEFORM BE PATIENT OK?</h6>
-            </center>
-          </div>
-        </div>
+        <div id="waveform"></div>
         <div id="timeline"></div>
         <br>
         <div id="performer-info" class="fl w-50 ba b--solid b--white-80">
@@ -71,9 +65,6 @@ div#spinny {margin: 30px 0px; width: 90px;height: 90px;-webkit-animation-name: s
     -->
     <script>
 
-    var ws = document.getElementById('waveform')
-    var rt = document.getElementById('rudetext')
-
     var WaveSurfer = window.WaveSurfer;
     var TimelinePlugin = window.WaveSurfer.timeline;
     var MinimapPlugin = window.WaveSurfer.minimap;
@@ -101,7 +92,6 @@ div#spinny {margin: 30px 0px; width: 90px;height: 90px;-webkit-animation-name: s
     });
 
     wavesurfer.on('ready', function () {
-          rt.innerHTML = ''
           wavesurfer.play(); 
     });
 
