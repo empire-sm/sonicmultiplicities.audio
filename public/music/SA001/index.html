@@ -1,6 +1,8 @@
 <html lang="en">
   <title>SA001: INJECTION TIME LAPSE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Yrsa&display=swap" rel="stylesheet">
   <head>
     <script src="https://unpkg.com/wavesurfer.js"></script>
     <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.min.js"></script>
@@ -16,40 +18,53 @@ div#spinny {margin: 30px 0px; width: 90px;height: 90px;-webkit-animation-name: s
   <body style="color:#EEEEEE;background-color:#000000;">
     <div id="track-info">
       <div id="ti-left" class="fl w-90">
-        <h1>SA001<h1>
+        <h3><i class="fas fa-caret-square-up"></i>SA001<h3>
         <h2>INJECTION TIME LAPSE</h2>
       </div>
       <div id="ti-right" class="fl w-10">
-        <h3>Brooklyn, NY</h3>
-        <h3>July 26, 2019</h3>
-        <h4>19:15 - 19:45</h4>
+        <h3><i class="fas fa-map-marker-alt"></i> Brooklyn, NY</h3>
+        <h3><i class="fas fa-calendar-day"></i> July 26, 2019</h3>
+        <h4><i class="far fa-clock"></i> 19:15 - 19:45</h4>
       </div>
     </div>
     <div id="playa">
       <div id="spinny" class="fl w-10" style="margin:30px 0px;">
-        <h1 style="font-size:70px;">▲</h1>
+        <h1 style="font-size:70px;" onclick="wavesurfer.playPause()">▲</h1>
       </div>
-    <div id="theaction" class="fl w-90">
-    <div id="waveform"></div>
-    <div id="timeline"></div>
-    <div id="performer-info">
-      <center>
-      <h2>Garrett Semmelink</h2>
-      <h3>Violin, Prepared Violin, Hand Percussion, Voice</h3>
-      </center>
+      <div id="theaction" class="fl w-90">
+        <div id="waveform"></div>
+        <div id="timeline"></div>
+        <br>
+        <div id="performer-info" class="fl w-50 ba b--solid b--white-80">
+          <center>
+          <h1 style="font-family:'Yrsa', serif;">Garrett Semmelink</h1>
+          <p style="font-family:'Yrsa', serif;">Violin, Prepared Violin, Hand Percussion, Voice</p>
+          </center>
+        </div>
+        <div id="link-info" class="fl w-50 ba b--solid b--white-80">
+          <center>
+          <h1 style="font-family:'Yrsa', serif;">Downloads</h1>
+          <div id="da" class="fl w-50 ba b--none">
+            <h3 style="font-family:'Yrsa', serif;">Audio</h3>
+            <h6><a class="link dim hover-dark-red" href="https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.flac">FLAC</a></h6>
+            <h6><a class="link dim hover-dark-red"href="https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.opus">OPUS</a></h6>
+            <h6><a class="link dim hover-dark-red"href="https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.mp3">MP3</a></h6>
+          </div>
+          <div id="dv" class="fl w-50 ba b--none">
+            <h3 style="font-family:'Yrsa', serif;">Video</h3>
+            <h6><a class="link dim hover-dark-red" href="https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov">MOV</a></h6>
+          </div>
+          </center>
+        </div>
+      </div>
     </div>
     <!--
     <h2>DOWNLOADS</h2>
     <div id="dl-info">
-      <h4><a class="link dim hover-dark-red" href="https://s3.amazonaws.com/sonicmultiplicities.audio/videos/injection_timelapse.mov">MOV</a></h4>
-      <h4><a class="link dim hover-dark-red" href="https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.flac">FLAC</a></h4>
-      <h4><a class="link dim hover-dark-red"href="https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.opus">OPUS</a></h4>
-      <h4><a class="link dim hover-dark-red"href="https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.mp3">MP3</a></h4>
     </div>
     -->
-    </div>
-    </div>
     <script>
+
     var WaveSurfer = window.WaveSurfer;
     var TimelinePlugin = window.WaveSurfer.timeline;
     var MinimapPlugin = window.WaveSurfer.minimap;
@@ -81,6 +96,11 @@ div#spinny {margin: 30px 0px; width: 90px;height: 90px;-webkit-animation-name: s
     });
 
     wavesurfer.load('https://s3.amazonaws.com/sonicmultiplicities.audio/player-audio/SA001/SA001.mp3');
+   /* 
+    function togglePlayPause() {
+      wavesurfer.
+    }
+    */
     </script>
   </body>
 </html>
