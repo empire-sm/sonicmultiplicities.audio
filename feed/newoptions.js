@@ -24,7 +24,7 @@ module.exports = {
   },
   items: [{
     title: 'SM000: Introduction',
-    description: 'Introducing this feed.',
+    description: "Introducing this feed, Andrew Grathwohl ruminates upon the artistic meaning behind the Sonic Multiplicities platform, and why it is so unfit for today's traditional distribution workflows. If you want to know why a serious composer and many serious musicians are all about releasing music via a podcast feed, give this brief narrative overture a gander. Never heard of Sonic Multiplicities before and want to know what the hell we're talking about? Check out our <a href='https://sonicmultiplicities.audio'>home page</a> at https://sonicmultiplicities.audio and brace yourself for its eery Geocities vibes.",
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM000.mp3',
     categories: ['Music'],
     guid: 'SM000',
