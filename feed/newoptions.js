@@ -23,6 +23,29 @@ module.exports = {
     itunesAuthor: 'Andrew Grathwohl'
   },
   items: [{
+    title: 'SM000: Introduction',
+    description: 'Introducing this feed.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM000.mp3',
+    categories: ['Music'],
+    guid: 'SM000',
+    author: 'Andrew Grathwohl',
+    date: 'July 22, 2019',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM000.mp3',
+      file: '../releases/SM000.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Sonic Multiplicities introduction, by Andrew Grathwohl',
+    itunesDuration: 207,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'SM000: Introduction',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
+    itunesSeason: 2019,
+    itunesEpisode: 1,
+  }, {
     title: 'SM001: Aboard the cargo freighter, Fair Lady - Adrift',
     description: 'Join master Sonicmeister, violinist, and music educator Garrett Semmelink as he summons the powers of Sonic Multiplicities to paint a hauntingly gorgeous picture of a cargo freighter amidst turbulent waters. Using only his instrument and the SM1.2 software interface, Semmelink grabs the listener in a sonic choke-hold, thrusting them into the freight workers\' inner despair - a place where there is nowhere to hide. Download this session in <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">Opus</a> and <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.mp3',
@@ -42,29 +65,6 @@ module.exports = {
     itunesExplicit: false,
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
     itunesTitle: 'SM001: Aboard the cargo freighter, Fair Lady - Adrift',
-    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
-    itunesSeason: 2019,
-    itunesEpisode: 1
-  }, {
-    title: 'SM002: Injection Timelapse, I. Euphoria',
-    description: 'Join master violinist and Sonicmeister, Garrett Semmelink, as he summons the powers of Sonic Multiplicities to invoke the multidimensional physicalities generated through the misery of chemical addiction. Download this session in <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM002.opus">Opus</a> and <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM002.flac">FLAC</a>. Be on the lookout for movements two and three throughout the month of September!',
-    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM002.mp3',
-    categories: ['Music'],
-    guid: 'SM002',
-    author: 'Andrew Grathwohl',
-    date: 'Aug 17, 2019',
-    'lat': 0.000000,
-    'long': 0.000000,
-    enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM002.mp3',
-      file: '../releases/SM002.mp3',
-      type: 'audio/mpeg'
-    },
-    itunesSubtitle: 'Sonic Multiplicities #2a, featuring Garrett Semmelink on violin & percussion.',
-    itunesDuration: 678,
-    itunesExplicit: false,
-    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
-    itunesTitle: 'SM002: Injection Timelapse, I. Euphoria',
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2019,
     itunesEpisode: 2
