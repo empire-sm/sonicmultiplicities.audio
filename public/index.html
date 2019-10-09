@@ -15,8 +15,8 @@
   <script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.js"></script>
   <script src="//cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr-markers-plugin@latest/dist/clappr-markers-plugin.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr-pip-plugin@latest/dist/clappr-pip-plugin.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clappr-markers-plugin@latest/dist/clappr-markers-plugin.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clappr-pip-plugin@latest/dist/clappr-pip-plugin.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -34,7 +34,7 @@ console.log(hasMSE())
   var player = new Clappr.Player({
       // source: hasMSE() ? 'https://s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/dash14/dash.mpd' : 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/mafa1_yuv420p_proxy.mp4',
       source: hasMSE() ? 'https://s3.amazonaws.com/sonicmultiplicities.audio/dash_streams/homepage/dash.mpd' : 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/mafa1_yuv420p_proxy.mp4',
-      plugins: [DashShakaPlayback, LevelSelector, ChromecastPlugin, ClapprPIPPlugin, ClapprMarkersPlugin],
+      plugins: [DashShakaPlayback, LevelSelector, ClapprPIPPlugin, ClapprMarkersPlugin],
       autoPlay: true,
       poster: '//pbs.twimg.com/media/EArpq-0UIAAwRwv?format=jpg&name=medium',
       watermark: "//sonicmultiplicities.audio/tri-alpha.png", position: 'bottom-left',
@@ -51,19 +51,13 @@ console.log(hasMSE())
       },
       // disableVideoTagContextMenu: true,
       hideMediaControlDelay: 1000,
-      chromecast: {
-        appId: '9DFB77C0',
-        contentType: 'video/mp4',
-        media: {
-          type: ChromecastPlugin.None,
-        }
-      },
       markersPlugin: {
         markers: [
           new ClapprMarkersPlugin.StandardMarker(1, "Injection Time Lapse"),
           new ClapprMarkersPlugin.StandardMarker(265, "Injection Time Lapse"),
           new ClapprMarkersPlugin.StandardMarker(865, "Injection Time Lapse")
         ],
+        tooltipBottomMargin: 17 // optional
       },
       parentId: "#player"
     });
