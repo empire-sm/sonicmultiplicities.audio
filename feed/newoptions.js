@@ -29,7 +29,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM000',
     author: 'Andrew Grathwohl',
-    date: 'July 22, 2019',
+    date: 'October 13, 2019',
     'lat': 0.000000,
     'long': 0.000000,
     enclosure: {
@@ -38,35 +38,12 @@ module.exports = {
       type: 'audio/mpeg'
     },
     itunesSubtitle: 'Sonic Multiplicities introduction, by Andrew Grathwohl',
-    itunesDuration: 207,
+    itunesDuration: 114,
     itunesExplicit: false,
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
     itunesTitle: 'SM000: Introduction',
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2019,
     itunesEpisode: 1,
-  }, {
-    title: 'SM001: Aboard the cargo freighter, Fair Lady - Adrift',
-    description: 'Join master Sonicmeister, violinist, and music educator Garrett Semmelink as he summons the powers of Sonic Multiplicities to paint a hauntingly gorgeous picture of a cargo freighter amidst turbulent waters. Using only his instrument and the SM1.2 software interface, Semmelink grabs the listener in a sonic choke-hold, thrusting them into the freight workers\' inner despair - a place where there is nowhere to hide. Download this session in <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">Opus</a> and <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a>.',
-    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.mp3',
-    categories: ['Music'],
-    guid: 'SM001',
-    author: 'Andrew Grathwohl',
-    date: 'Aug 2, 2019',
-    'lat': 0.000000,
-    'long': 0.000000,
-    enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.mp3',
-      file: '../releases/SM001.mp3',
-      type: 'audio/mpeg'
-    },
-    itunesSubtitle: 'Sonic Multiplicities #1, featuring Garrett Semmelink on violin & prepared violin.',
-    itunesDuration: 1086,
-    itunesExplicit: false,
-    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
-    itunesTitle: 'SM001: Aboard the cargo freighter, Fair Lady - Adrift',
-    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
-    itunesSeason: 2019,
-    itunesEpisode: 2
   }]
 }
