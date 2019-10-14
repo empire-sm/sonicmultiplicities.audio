@@ -106,13 +106,36 @@ const oldTracks = [{
       type: 'audio/mpeg'
     },
     itunesSubtitle: 'Garrett Semmelink: Violin',
-    itunesDuration: 204,
+    itunesDuration: 346,
     itunesExplicit: false,
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
     itunesTitle: 'MAN QUA MAN',
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 3,
+},{
+    title: 'Untitled',
+    description: 'Cosmo D: Cello\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_006.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_006',
+    author: 'Andrew Grathwohl',
+    date: 'July 06, 2012',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_006.mp3',
+      file: '../releases/SMOLD_006.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Cosmo D: Cello',
+    itunesDuration: 642,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Untitled',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
+    itunesSeason: 2012,
+    itunesEpisode: 4,
 }]
 
 module.exports = {
