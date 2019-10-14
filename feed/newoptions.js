@@ -44,6 +44,52 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2011,
     itunesEpisode: 1,
+},{
+    title: 'Maine',
+    description: 'Garrett Semmelink: Violin\nUnfortunately, due to data loss this track is not available for download.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_003.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_003',
+    author: 'Andrew Grathwohl',
+    date: 'February 10, 2012',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_003.mp3',
+      file: '../releases/SMOLD_003.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Garrett Semmelink: Violin',
+    itunesDuration: 240,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Maine',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
+    itunesSeason: 2012,
+    itunesEpisode: 1,
+},{
+    title: 'Drowned',
+    description: 'Garrett Semmelink: Violin\nUnfortunately, due to data loss this track is not available for download.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_004.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_004',
+    author: 'Andrew Grathwohl',
+    date: 'February 10, 2012',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_004.mp3',
+      file: '../releases/SMOLD_004.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Garrett Semmelink: Violin',
+    itunesDuration: 236,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Drowned',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
+    itunesSeason: 2012,
+    itunesEpisode: 2,
 }]
 
 module.exports = {
