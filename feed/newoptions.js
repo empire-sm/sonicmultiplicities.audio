@@ -143,7 +143,7 @@ const oldTracks = [{
     categories: ['Music'],
     guid: 'SMOLD_007',
     author: 'Andrew Grathwohl',
-    date: 'July 06, 2012',
+    date: 'Oct 19, 2012',
     'lat': 0.000000,
     'long': 0.000000,
     enclosure: {
@@ -158,7 +158,7 @@ const oldTracks = [{
     itunesTitle: 'LEK4_AND',
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
-    itunesEpisode: 4,
+    itunesEpisode: 5,
 }]
 
 module.exports = {
