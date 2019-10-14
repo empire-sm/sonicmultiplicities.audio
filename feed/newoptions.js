@@ -90,6 +90,29 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 2,
+},{
+    title: 'MAN QUA MAN (SEAMUS 2011 - Miami, FL)',
+    description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_005.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_005',
+    author: 'Andrew Grathwohl',
+    date: 'May 30, 2012',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_005.mp3',
+      file: '../releases/SMOLD_005.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Garrett Semmelink: Violin',
+    itunesDuration: 204,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'MAN QUA MAN',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
+    itunesSeason: 2012,
+    itunesEpisode: 3,
 }]
 
 module.exports = {
