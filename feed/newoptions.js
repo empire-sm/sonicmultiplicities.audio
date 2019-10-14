@@ -29,7 +29,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM000',
     author: 'Andrew Grathwohl',
-    date: 'October 13, 2019',
+    date: 'October 11, 2019',
     'lat': 0.000000,
     'long': 0.000000,
     enclosure: {
@@ -45,5 +45,28 @@ module.exports = {
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2019,
     itunesEpisode: 1,
+  },{
+    title: 'SM001: Injection Time Lapse',
+    description: 'Garrett Semmelink: Violin & prepared violin\nDownloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.mp3',
+    categories: ['Music'],
+    guid: 'SM001',
+    author: 'Andrew Grathwohl',
+    date: 'October 13, 2019',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.mp3',
+      file: '../releases/SM001.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Sonic Multiplicities introduction, by Andrew Grathwohl',
+    itunesDuration: 114,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'SM001: Injection Time Lapse',
+    itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.jpg',
+    itunesSeason: 2019,
+    itunesEpisode: 2,
   }]
 }
