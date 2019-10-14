@@ -136,6 +136,29 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 4,
+},{
+    title: 'LEK4_AND',
+    description: 'Garrett Semmelink: Steel violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_007.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_007',
+    author: 'Andrew Grathwohl',
+    date: 'July 06, 2012',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_007.mp3',
+      file: '../releases/SMOLD_007.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Garrett Semmelink: Steel violin',
+    itunesDuration: 327,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'LEK4_AND',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
+    itunesSeason: 2012,
+    itunesEpisode: 4,
 }]
 
 module.exports = {
