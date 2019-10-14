@@ -60,8 +60,8 @@ module.exports = {
       file: '../releases/SM001.mp3',
       type: 'audio/mpeg'
     },
-    itunesSubtitle: 'Sonic Multiplicities introduction, by Andrew Grathwohl',
-    itunesDuration: 114,
+    itunesSubtitle: 'We are so back!',
+    itunesDuration: 1595,
     itunesExplicit: false,
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
     itunesTitle: 'SM001: Injection Time Lapse',
