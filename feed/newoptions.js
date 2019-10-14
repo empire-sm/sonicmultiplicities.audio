@@ -159,6 +159,29 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 5,
+},{
+    title: 'Vasoconstriction',
+    description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_008.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_008',
+    author: 'Andrew Grathwohl',
+    date: 'Oct 23, 2014',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_008.mp3',
+      file: '../releases/SMOLD_008.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Garrett Semmelink: Violin',
+    itunesDuration: 1028,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Vasoconstriction',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
+    itunesSeason: 2014,
+    itunesEpisode: 1,
 }]
 
 module.exports = {
