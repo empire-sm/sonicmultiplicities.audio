@@ -1,3 +1,6 @@
+const latitude = 40.741895
+const longitude = -73.989308
+
 const oldTracks = [{
     title: 'Freiburg',
     description: 'Garrett Semmelink: Violin\nOur very first recording! Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.opus">OPUS</a>.',
@@ -6,8 +9,8 @@ const oldTracks = [{
     guid: 'SMOLD_001',
     author: 'Andrew Grathwohl',
     date: 'July 28, 2010',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM_OLD001.mp3',
       file: '../releases/SM_OLD001.mp3',
@@ -31,8 +34,8 @@ const oldTracks = [{
     guid: 'SMOLD_002',
     author: 'Andrew Grathwohl',
     date: 'July 11, 2011',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_002.mp3',
       file: '../releases/SMOLD_002.mp3',
@@ -56,8 +59,8 @@ const oldTracks = [{
     guid: 'SMOLD_003',
     author: 'Andrew Grathwohl',
     date: 'February 10, 2012',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_003.mp3',
       file: '../releases/SMOLD_003.mp3',
@@ -81,8 +84,8 @@ const oldTracks = [{
     guid: 'SMOLD_004',
     author: 'Andrew Grathwohl',
     date: 'February 10, 2012',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_004.mp3',
       file: '../releases/SMOLD_004.mp3',
@@ -106,8 +109,8 @@ const oldTracks = [{
     guid: 'SMOLD_005',
     author: 'Andrew Grathwohl',
     date: 'May 30, 2012',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_005.mp3',
       file: '../releases/SMOLD_005.mp3',
@@ -131,8 +134,8 @@ const oldTracks = [{
     guid: 'SMOLD_006',
     author: 'Andrew Grathwohl',
     date: 'July 06, 2012',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_006.mp3',
       file: '../releases/SMOLD_006.mp3',
@@ -156,8 +159,8 @@ const oldTracks = [{
     guid: 'SMOLD_007',
     author: 'Andrew Grathwohl',
     date: 'Oct 19, 2012',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_007.mp3',
       file: '../releases/SMOLD_007.mp3',
@@ -181,8 +184,8 @@ const oldTracks = [{
     guid: 'SMOLD_008',
     author: 'Andrew Grathwohl',
     date: 'Oct 23, 2014',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_008.mp3',
       file: '../releases/SMOLD_008.mp3',
@@ -206,8 +209,8 @@ const oldTracks = [{
     guid: 'SMOLD_009',
     author: 'Andrew Grathwohl',
     date: 'Oct 26, 2014',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_009.mp3',
       file: '../releases/SMOLD_009.mp3',
@@ -231,8 +234,8 @@ const oldTracks = [{
     guid: 'SMOLD_010',
     author: 'Andrew Grathwohl',
     date: 'December 12, 2014',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_010.mp3',
       file: '../releases/SMOLD_010.mp3',
@@ -256,8 +259,8 @@ const oldTracks = [{
     guid: 'SMOLD_011',
     author: 'Andrew Grathwohl',
     date: 'December 17, 2014',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_011.mp3',
       file: '../releases/SMOLD_011.mp3',
@@ -307,8 +310,8 @@ module.exports = {
     guid: 'SM000',
     author: 'Andrew Grathwohl',
     date: 'October 1, 2009',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM000.mp3',
       file: '../releases/SM000.mp3',
@@ -332,8 +335,8 @@ module.exports = {
     guid: 'SM001',
     author: 'Andrew Grathwohl',
     date: 'October 13, 2019',
-    'lat': 0.000000,
-    'long': 0.000000,
+    'lat': latitude,
+    'long': longitude,
     enclosure: {
       url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.mp3',
       file: '../releases/SM001.mp3',
