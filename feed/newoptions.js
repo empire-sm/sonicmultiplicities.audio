@@ -1,3 +1,27 @@
+/*const oldTracks = [{
+    title: 'Freiburg',
+    description: 'Garrett Semmelink: Violin\nOur very first recording! Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_001.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_001',
+    author: 'Andrew Grathwohl',
+    date: 'July 28, 2010',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM_OLD001.mp3',
+      file: '../releases/SM_OLD001.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Our very first piece, back in 2010!',
+    itunesDuration: 166,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Freiburg',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
+}]
+*/
+
 module.exports = {
   feed: {
     title: '▲ Presents: Sonic Multiplicities',
@@ -8,7 +32,7 @@ module.exports = {
     author: 'Andrew Grathwohl',
     managingEditor: 'Andrew Grathwohl',
     copyright: '2019 Sacred Data, LLC',
-    pubDate: 'May 20, 2019 04:00:00 GMT',
+    pubDate: 'October 13, 2019 04:00:00 GMT',
     ttl: '60',
     language: 'en',
     categories: ['Music'],
@@ -29,7 +53,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM000',
     author: 'Andrew Grathwohl',
-    date: 'October 11, 2019',
+    date: 'October 1, 2009',
     'lat': 0.000000,
     'long': 0.000000,
     enclosure: {
@@ -45,6 +69,27 @@ module.exports = {
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2019,
     itunesEpisode: 1,
+  },{
+    title: 'Freiburg (2010)',
+    description: 'Garrett Semmelink: Violin\nOur very first recording! Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_001.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_001',
+    author: 'Andrew Grathwohl',
+    date: 'July 28, 2010',
+    'lat': 0.000000,
+    'long': 0.000000,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM_OLD001.mp3',
+      file: '../releases/SM_OLD001.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Our very first piece, back in 2010!',
+    itunesDuration: 166,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Freiburg',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
   },{
     title: 'SM001: Injection Time Lapse',
     description: 'Garrett Semmelink: Violin & prepared violin\nCheck out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
