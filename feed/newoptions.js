@@ -47,7 +47,7 @@ module.exports = {
     itunesEpisode: 1,
   },{
     title: 'SM001: Injection Time Lapse',
-    description: 'Garrett Semmelink: Violin & prepared violin\nDownloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
+    description: 'Garrett Semmelink: Violin & prepared violin\nCheck out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.mp3',
     categories: ['Music'],
     guid: 'SM001',
@@ -60,7 +60,7 @@ module.exports = {
       file: '../releases/SM001.mp3',
       type: 'audio/mpeg'
     },
-    itunesSubtitle: 'We are so back!',
+    itunesSubtitle: 'We are so back! And we have new bad-ass music videos.',
     itunesDuration: 1595,
     itunesExplicit: false,
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
@@ -89,5 +89,7 @@ module.exports = {
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
     itunesTitle: 'Introduction to SM001',
     itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.jpg',
+    itunesSeason: 2019,
+    itunesEpisode: 3,
   }]
 }
