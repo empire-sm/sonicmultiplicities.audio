@@ -113,28 +113,5 @@ module.exports = {
     itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.jpg',
     itunesSeason: 2019,
     itunesEpisode: 2,
-  },{
-    title: 'Introduction to SM001',
-    description: 'The introduction to Injection Time Lapse.',
-    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001_intro.mp3',
-    categories: ['Music'],
-    guid: 'SM001_intro',
-    author: 'Andrew Grathwohl',
-    date: 'October 13, 2019',
-    'lat': 0.000000,
-    'long': 0.000000,
-    enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001_intro.mp3',
-      file: '../releases/SM001_intro.mp3',
-      type: 'audio/mpeg'
-    },
-    itunesSubtitle: 'Andrew introduces Injection Time Lapse.',
-    itunesDuration: 260,
-    itunesExplicit: false,
-    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
-    itunesTitle: 'Introduction to SM001',
-    itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.jpg',
-    itunesSeason: 2019,
-    itunesEpisode: 3,
   }]
 }
