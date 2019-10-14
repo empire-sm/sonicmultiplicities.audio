@@ -21,6 +21,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2010,
     itunesEpisode: 1,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'Schadenfreude',
     description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_002.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_002.opus">OPUS</a>.',
@@ -44,6 +45,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2011,
     itunesEpisode: 1,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'Maine',
     description: 'Garrett Semmelink: Violin\nUnfortunately, due to data loss this track is not available for download.',
@@ -67,6 +69,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 1,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'Drowned',
     description: 'Garrett Semmelink: Violin\nUnfortunately, due to data loss this track is not available for download.',
@@ -90,6 +93,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 2,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'MAN QUA MAN (SEAMUS 2011 - Miami, FL)',
     description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.opus">OPUS</a>.',
@@ -113,6 +117,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 3,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'Untitled',
     description: 'Cosmo D: Cello\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.opus">OPUS</a>.',
@@ -136,6 +141,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 4,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'LEK4_AND',
     description: 'Garrett Semmelink: Steel violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.opus">OPUS</a>.',
@@ -159,6 +165,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 5,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'Vasoconstriction',
     description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.opus">OPUS</a>.',
@@ -182,6 +189,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2014,
     itunesEpisode: 1,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'Inertia',
     description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.opus">OPUS</a>.',
@@ -205,6 +213,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2014,
     itunesEpisode: 2,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'Miasma',
     description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.opus">OPUS</a>.',
@@ -228,6 +237,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2014,
     itunesEpisode: 3,
+    itunesEpisodeType: 'bonus'
 },{
     title: 'Labor',
     description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_011.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_011.opus">OPUS</a>.',
@@ -251,6 +261,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2014,
     itunesEpisode: 4,
+    itunesEpisodeType: 'bonus'
 }]
 
 module.exports = {
@@ -300,6 +311,7 @@ module.exports = {
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2019,
     itunesEpisode: 1,
+    itunesEpisodeType: 'trailer'
   }, {
     title: 'SM001: Injection Time Lapse',
     description: 'Garrett Semmelink: Violin & prepared violin\nCheck out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
