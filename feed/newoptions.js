@@ -21,6 +21,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2010,
     itunesEpisode: 1,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'Schadenfreude',
@@ -45,6 +46,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2011,
     itunesEpisode: 1,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'Maine',
@@ -69,6 +71,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 1,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'Drowned',
@@ -93,6 +96,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 2,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'MAN QUA MAN (SEAMUS 2011 - Miami, FL)',
@@ -117,6 +121,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 3,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'Untitled',
@@ -141,6 +146,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 4,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'LEK4_AND',
@@ -165,6 +171,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2012,
     itunesEpisode: 5,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'Vasoconstriction',
@@ -189,6 +196,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2014,
     itunesEpisode: 1,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'Inertia',
@@ -213,6 +221,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2014,
     itunesEpisode: 2,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'Miasma',
@@ -237,6 +246,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2014,
     itunesEpisode: 3,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 },{
     title: 'Labor',
@@ -261,6 +271,7 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2014,
     itunesEpisode: 4,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 }]
 
@@ -311,6 +322,7 @@ module.exports = {
     itunesImage: 'https://sonicmultiplicities.audio/triangle.png',
     itunesSeason: 2019,
     itunesEpisode: 1,
+    itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'trailer'
   }, {
     title: 'SM001: Injection Time Lapse',
@@ -335,5 +347,7 @@ module.exports = {
     itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.jpg',
     itunesSeason: 2019,
     itunesEpisode: 2,
+    itunesSummary: 'Garrett Semmelink: Violin & prepared violin\nCheck out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
+    itunesAuthor: 'Andrew Grathwohl',
   }].concat(oldTracks)
 }
