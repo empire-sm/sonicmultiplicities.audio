@@ -346,7 +346,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM001',
     author: 'Andrew Grathwohl',
-    date: 'October 25, 2019',
+    date: 'October 11, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
@@ -364,5 +364,31 @@ module.exports = {
     itunesEpisode: 2,
     itunesSummary: '<b>Garrett Semmelink</b>: Violin, prepared violin, and hand percussion.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
     itunesAuthor: 'Andrew Grathwohl',
+  },{
+    title: 'SM002a: Music Ain\'t For Airports',
+    description: '<b>Garrett Semmelink</b>: Violin, voice.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/364915988">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM002a.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM002a.opus">OPUS</a>',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM002a.mp3',
+    categories: ['Music'],
+    guid: 'SM002a',
+    author: 'Andrew Grathwohl',
+    date: 'October 15, 2019',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM002a.mp3',
+      file: '../releases/SM002a.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSubtitle: 'Don\'t you forget it.',
+    itunesDuration: 831,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'SM002a: Music Ain\'t For Airports',
+    itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM002a.jpg',
+    itunesSeason: 2019,
+    itunesEpisode: 3,
+    itunesSummary: '<b>Garrett Semmelink</b>: Violin, voice.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/364915988">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM002a.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM002a.opus">OPUS</a><br><b>Go to this piece\'s <a href="https://sonicmultiplicities.audio/music/SA002/">SM homepage</a></b>.<br>___MUSIC AIN\'T FOR AIRPORTS___<br>Think back to the last time you had to visit an airport in the United States. You\'re sitting in some brazenly uncomfortable airport bench, anxious from having just had your junk fondled by an old person pushing sixty in a blue uniform; annoyed by the hoards of people who take far more personal space than they require, and; overwhelmed by the slap echo hustle and bustle that seems to be present in every such complex of buildings. Only the deliberately psychopathic would dare look at such a scenario and suggest: "let\'s AstroTurf this environment with the playback of commercial music recordings. That should plug up this glaring hole of thoughtlessness, bureaucracy, and corruption." And yet, here we are.<br> Given all the events, which have transpired since 1978, one could easily conclude that music ain\'t for airports. However, hindsight being 20/20, it was perhaps essential that somebody conceived of such an exaggerated expansion in the size and scope of music\'s reach. For it is now exceedingly clear today, that the literate mind\'s tendency to disrespect the confines of music\'s glory, is on display in numerous social dilemmata.<br>Music may put more asses in the seats, more shoppers in the supermarket aisles, and more enthusiastic workers into boring office jobs - but what other human ingenuity have we tossed aside, which could have more adequately addressed such concerns? Worse yet, what has this severe mis-allocation of resources done to stall and disarm the lateral, multi-dimensional expansion of the sonic arts required for the survival and evolution of modern humanity?<br>Music can\'t solve our problems; it can only create new ones. It is our hope that you have a very, very troubled day after listening to this recording.',
+    itunesAuthor: 'Andrew Grathwohl',
+
   }].concat(oldTracks)
 }
