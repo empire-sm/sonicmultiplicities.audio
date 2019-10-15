@@ -309,7 +309,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM000',
     author: 'Andrew Grathwohl',
-    date: 'October 1, 2009',
+    date: 'October 13, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
@@ -329,12 +329,12 @@ module.exports = {
     itunesEpisodeType: 'trailer'
   }, {
     title: 'SM001: Injection Time Lapse',
-    description: 'Garrett Semmelink: Violin & prepared violin\nCheck out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
+    description: '<b>Garrett Semmelink</b>: Violin, prepared violin, and hand percussion.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.mp3',
     categories: ['Music'],
     guid: 'SM001',
     author: 'Andrew Grathwohl',
-    date: 'October 13, 2019',
+    date: 'October 25, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
@@ -350,7 +350,7 @@ module.exports = {
     itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.jpg',
     itunesSeason: 2019,
     itunesEpisode: 2,
-    itunesSummary: 'Garrett Semmelink: Violin & prepared violin\nCheck out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
+    itunesSummary: '<b>Garrett Semmelink</b>: Violin, prepared violin, and hand percussion.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a>',
     itunesAuthor: 'Andrew Grathwohl',
   }].concat(oldTracks)
 }
