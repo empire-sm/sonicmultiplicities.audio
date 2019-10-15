@@ -320,7 +320,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM000',
     author: 'Andrew Grathwohl',
-    date: 'October 13, 2019',
+    date: 'October 11, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
@@ -346,7 +346,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM001',
     author: 'Andrew Grathwohl',
-    date: 'October 11, 2019',
+    date: 'October 13, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
