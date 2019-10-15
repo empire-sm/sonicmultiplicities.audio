@@ -3,7 +3,7 @@ const longitude = -73.989308
 
 const oldTracks = [{
     title: 'Freiburg',
-    description: 'Garrett Semmelink: Violin\nOur very first recording! Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.opus">OPUS</a>.',
+    description: 'Garrett Semmelink: Violin<br>Our very first recording! Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_001.mp3',
     categories: ['Music'],
     guid: 'SMOLD_001',
@@ -16,6 +16,7 @@ const oldTracks = [{
       file: '../releases/SM_OLD001.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Our very first recording! Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.opus">OPUS</a>.',
     itunesSubtitle: 'Our very first piece, back in 2010!',
     itunesDuration: 166,
     itunesExplicit: false,
@@ -28,7 +29,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'Schadenfreude',
-    description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_002.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_002.opus">OPUS</a>.',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_002.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_002.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_002.mp3',
     categories: ['Music'],
     guid: 'SMOLD_002',
@@ -41,6 +42,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_002.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_002.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_002.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
     itunesDuration: 204,
     itunesExplicit: false,
@@ -53,7 +55,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'Maine',
-    description: 'Garrett Semmelink: Violin\nUnfortunately, due to data loss this track is not available for download.',
+    description: 'Garrett Semmelink: Violin<br>Unfortunately, due to data loss this track is not available for download.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_003.mp3',
     categories: ['Music'],
     guid: 'SMOLD_003',
@@ -66,6 +68,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_003.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Unfortunately, due to data loss this track is not available for download.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
     itunesDuration: 240,
     itunesExplicit: false,
@@ -78,7 +81,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'Drowned',
-    description: 'Garrett Semmelink: Violin\nUnfortunately, due to data loss this track is not available for download.',
+    description: 'Garrett Semmelink: Violin<br>Unfortunately, due to data loss this track is not available for download.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_004.mp3',
     categories: ['Music'],
     guid: 'SMOLD_004',
@@ -91,6 +94,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_004.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Unfortunately, due to data loss this track is not available for download.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
     itunesDuration: 236,
     itunesExplicit: false,
@@ -103,7 +107,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'MAN QUA MAN (SEAMUS 2011 - Miami, FL)',
-    description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.opus">OPUS</a>.',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_005.mp3',
     categories: ['Music'],
     guid: 'SMOLD_005',
@@ -116,6 +120,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_005.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_005.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
     itunesDuration: 346,
     itunesExplicit: false,
@@ -128,7 +133,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'Untitled',
-    description: 'Cosmo D: Cello\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.opus">OPUS</a>.',
+    description: 'Cosmo D: Cello<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_006.mp3',
     categories: ['Music'],
     guid: 'SMOLD_006',
@@ -141,6 +146,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_006.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Cosmo D: Cello<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_006.opus">OPUS</a>.',
     itunesSubtitle: 'Cosmo D: Cello',
     itunesDuration: 642,
     itunesExplicit: false,
@@ -153,7 +159,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'LEK4_AND',
-    description: 'Garrett Semmelink: Steel violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.opus">OPUS</a>.',
+    description: 'Garrett Semmelink: Steel violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_007.mp3',
     categories: ['Music'],
     guid: 'SMOLD_007',
@@ -166,6 +172,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_007.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Steel violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_007.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Steel violin',
     itunesDuration: 327,
     itunesExplicit: false,
@@ -178,7 +185,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'Vasoconstriction',
-    description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.opus">OPUS</a>.',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_008.mp3',
     categories: ['Music'],
     guid: 'SMOLD_008',
@@ -191,6 +198,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_008.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_008.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
     itunesDuration: 1028,
     itunesExplicit: false,
@@ -203,7 +211,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'Inertia',
-    description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.opus">OPUS</a>.',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_009.mp3',
     categories: ['Music'],
     guid: 'SMOLD_009',
@@ -216,6 +224,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_009.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
     itunesDuration: 789,
     itunesExplicit: false,
@@ -228,7 +237,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'Miasma',
-    description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.opus">OPUS</a>.',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_010.mp3',
     categories: ['Music'],
     guid: 'SMOLD_010',
@@ -241,6 +250,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_010.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
     itunesDuration: 712,
     itunesExplicit: false,
@@ -253,7 +263,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'Labor',
-    description: 'Garrett Semmelink: Violin\nDownload the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_011.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_011.opus">OPUS</a>.',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_011.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_011.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_011.mp3',
     categories: ['Music'],
     guid: 'SMOLD_011',
@@ -266,6 +276,7 @@ const oldTracks = [{
       file: '../releases/SMOLD_011.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_011.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_011.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
     itunesDuration: 765,
     itunesExplicit: false,
@@ -281,7 +292,7 @@ const oldTracks = [{
 module.exports = {
   feed: {
     title: '▲ Presents: Sonic Multiplicities',
-    description: 'The official podcast feed for works of Sonic Multiplicities performed by the ▲ Ensemble. Each episode presents a complete, unmodified Sonic Multiplicities session, heard here exactly as it was performed at The Cathedral, ▲ Ensemble\'s Brooklyn, NY HQ. Join us for an intimate and intense journey through the roaring musical psyches of some of NYC\'s finest free improvisers! Highly recommended for fans of electroacoustic music, free & avant-garde jazz, noise music, the violin and the SuperCollider programming language.',
+    description: 'The official podcast feed for works of Sonic Multiplicities performed by ▲. Each episode presents a complete, unmodified Sonic Multiplicities session, heard here exactly as it was performed at The Cathedral, ▲\'s Brooklyn, NY headquarters. Join us for an intimate and intense journey through the roaring musical psyches of some of NYC\'s finest free improvisers! Highly recommended for fans of electroacoustic music, free & avant-garde jazz, noise music, the violin and the SuperCollider programming language.',
     feedUrl: 'https://sonicmultiplicities.audio/feed.xml',
     siteUrl: 'https://sonicmultiplicities.audio',
     imageUrl: 'https://sonicmultiplicities.audio/triangle.png',
@@ -317,6 +328,7 @@ module.exports = {
       file: '../releases/SM000.mp3',
       type: 'audio/mpeg'
     },
+    itunesSummary: "Introducing this feed, Andrew Grathwohl ruminates upon the artistic meaning behind the Sonic Multiplicities platform, and why it is so unfit for today's traditional distribution workflows. If you want to know why a serious composer and many serious musicians are all about releasing music via a podcast feed, give this brief narrative overture a gander. Never heard of Sonic Multiplicities before and want to know what the hell we're talking about? Check out our <a href='https://sonicmultiplicities.audio'>home page</a> at https://sonicmultiplicities.audio and brace yourself for its eery Geocities vibes.",
     itunesSubtitle: 'Sonic Multiplicities introduction, by Andrew Grathwohl',
     itunesDuration: 114,
     itunesExplicit: false,
