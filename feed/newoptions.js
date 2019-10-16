@@ -12,9 +12,9 @@ const oldTracks = [{
     'lat': latitude,
     'long': longitude,
     enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM_OLD001.mp3',
-      file: '../releases/SM_OLD001.mp3',
-      type: 'audio/mpeg'
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/garden_rough.mp4',
+      file: '/media/garden_rough.mp4',
+      type: 'video/mp4'
     },
     itunesSummary: 'Garrett Semmelink: Violin<br>Our very first recording! Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.opus">OPUS</a>.',
     itunesSubtitle: 'Our very first piece, back in 2010!',
@@ -220,9 +220,9 @@ const oldTracks = [{
     'lat': latitude,
     'long': longitude,
     enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_009.mp3',
-      file: '../releases/SMOLD_009.mp3',
-      type: 'audio/mpeg'
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/MONKEY.mov',
+      file: '/media/MONKEY.mov',
+      type: 'video/quicktime'
     },
     itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
@@ -246,9 +246,9 @@ const oldTracks = [{
     'lat': latitude,
     'long': longitude,
     enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_010.mp3',
-      file: '../releases/SMOLD_010.mp3',
-      type: 'audio/mpeg'
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/video/miasma_progressive.mov',
+      file: '/media/miasma_progressive.mov',
+      type: 'video/quicktime'
     },
     itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
@@ -324,9 +324,9 @@ const oldTracks = [{
     'lat': latitude,
     'long': longitude,
     enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_013.mp3',
-      file: '../releases/SMOLD_013.mp3',
-      type: 'audio/mpeg'
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/TITAN.mov',
+      file: '/media/TITAN.mov',
+      type: 'video/quicktime'
     },
     itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_013.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_013.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
@@ -417,7 +417,6 @@ const oldTracks = [{
     itunesEpisode: 4,
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
-
 }]
 
 module.exports = {
@@ -492,7 +491,7 @@ module.exports = {
     itunesTitle: 'SM001: Injection Time Lapse',
     itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM001.jpg',
     itunesSeason: 2019,
-    itunesEpisode: 2,
+    itunesEpisode: 1,
     itunesSummary: '<b>Garrett Semmelink</b>: Violin, prepared violin, and hand percussion.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/351832834">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM001.opus">OPUS</a><br><br><b>Go to this piece\'s <a href="https://sonicmultiplicities.audio/music/SA001/">SM Homepage</a></b>',
     itunesAuthor: 'Andrew Grathwohl',
   },{
@@ -517,7 +516,7 @@ module.exports = {
     itunesTitle: 'SM002a: Music Ain\'t For Airports',
     itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM002a.jpg',
     itunesSeason: 2019,
-    itunesEpisode: 3,
+    itunesEpisode: 2,
     itunesSummary: '<b>Garrett Semmelink</b>: Violin, voice.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/364915988">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM002a.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM002a.opus">OPUS</a><br><b>Go to this piece\'s <a href="https://sonicmultiplicities.audio/music/SA002/">SM homepage</a></b>.<br>___MUSIC AIN\'T FOR AIRPORTS___<br>Think back to the last time you had to visit an airport in the United States. You\'re sitting in some brazenly uncomfortable airport bench, anxious from having just had your junk fondled by an old person pushing sixty in a blue uniform; annoyed by the hoards of people who take far more personal space than they require, and; overwhelmed by the slap echo hustle and bustle that seems to be present in every such complex of buildings. Only the deliberately psychopathic would dare look at such a scenario and suggest: "let\'s AstroTurf this environment with the playback of commercial music recordings. That should plug up this glaring hole of thoughtlessness, bureaucracy, and corruption." And yet, here we are.<br> Given all the events, which have transpired since 1978, one could easily conclude that music ain\'t for airports. However, hindsight being 20/20, it was perhaps essential that somebody conceived of such an exaggerated expansion in the size and scope of music\'s reach. For it is now exceedingly clear today, that the literate mind\'s tendency to disrespect the confines of music\'s glory, is on display in numerous social dilemmata.<br>Music may put more asses in the seats, more shoppers in the supermarket aisles, and more enthusiastic workers into boring office jobs - but what other human ingenuity have we tossed aside, which could have more adequately addressed such concerns? Worse yet, what has this severe mis-allocation of resources done to stall and disarm the lateral, multi-dimensional expansion of the sonic arts required for the survival and evolution of modern humanity?<br>Music can\'t solve our problems; it can only create new ones. It is our hope that you have a very, very troubled day after listening to this recording.',
     itunesAuthor: 'Andrew Grathwohl',
 
@@ -544,7 +543,7 @@ module.exports = {
     itunesTitle: 'SM002a: Introduction',
     itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM002a.jpg',
     itunesSeason: 2019,
-    itunesEpisode: 3,
+    itunesEpisode: 2,
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'trailer'
   }].concat(oldTracks)
