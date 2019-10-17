@@ -460,7 +460,7 @@ module.exports = {
     },
     itunesSummary: "Introducing this feed, Andrew Grathwohl ruminates upon the artistic meaning behind the Sonic Multiplicities platform, and why it is so unfit for today's traditional distribution workflows. If you want to know why a serious composer and many serious musicians are all about releasing music via a podcast feed, give this brief narrative overture a gander. Never heard of Sonic Multiplicities before and want to know what the hell we're talking about? Check out our <a href='https://sonicmultiplicities.audio'>home page</a> at https://sonicmultiplicities.audio and brace yourself for its eery Geocities vibes.",
     itunesSubtitle: 'Sonic Multiplicities introduction, by Andrew Grathwohl',
-    itunesDuration: 114,
+    itunesDuration: 242,
     itunesExplicit: false,
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
     itunesTitle: 'SM000: Introduction',
