@@ -4,7 +4,7 @@ const longitude = -73.989308
 const oldTracks = [{
     title: 'Freiburg',
     description: 'Garrett Semmelink: Violin<br>Our very first recording! Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.opus">OPUS</a>.',
-    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_001.mp3',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM_OLD001.mp3',
     categories: ['Music'],
     guid: 'SMOLD_001',
     author: 'Andrew Grathwohl',
@@ -12,9 +12,9 @@ const oldTracks = [{
     'lat': latitude,
     'long': longitude,
     enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/garden_rough.mp4',
-      file: '/media/garden_rough.mp4',
-      type: 'video/mp4'
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM_OLD001.mp3',
+      file: '../releases/SM_OLD001.mp3',
+      type: 'audio/mpeg'
     },
     itunesSummary: 'Garrett Semmelink: Violin<br>Our very first recording! Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM_OLD001.opus">OPUS</a>.',
     itunesSubtitle: 'Our very first piece, back in 2010!',
@@ -220,9 +220,9 @@ const oldTracks = [{
     'lat': latitude,
     'long': longitude,
     enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/MONKEY.mov',
-      file: '/media/MONKEY.mov',
-      type: 'video/quicktime'
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_009.mp3',
+      file: '../releases/SMOLD_009.mp3',
+      type: 'audio/mpeg'
     },
     itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_009.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
@@ -246,9 +246,9 @@ const oldTracks = [{
     'lat': latitude,
     'long': longitude,
     enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/miasma_progressive.mov',
-      file: '/media/miasma_progressive.mov',
-      type: 'video/quicktime'
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_010.mp3',
+      file: '../releases/SMOLD_010.mp3',
+      type: 'audio/mpeg'
     },
     itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_010.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
@@ -324,9 +324,9 @@ const oldTracks = [{
     'lat': latitude,
     'long': longitude,
     enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/videos/TITAN.mov',
-      file: '/media/TITAN.mov',
-      type: 'video/quicktime'
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_013.mp3',
+      file: '../releases/SMOLD_013.mp3',
+      type: 'audio/mpeg'
     },
     itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_013.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_013.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
