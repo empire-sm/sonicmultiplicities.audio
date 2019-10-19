@@ -476,7 +476,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM001',
     author: 'Andrew Grathwohl',
-    date: 'October 13, 2019',
+    date: 'October 12, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
@@ -501,7 +501,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM001_intro',
     author: 'Andrew Grathwohl',
-    date: 'October 15, 2019',
+    date: 'October 13, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
@@ -527,7 +527,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM002a',
     author: 'Andrew Grathwohl',
-    date: 'October 15, 2019',
+    date: 'October 17, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
@@ -553,7 +553,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM002a_intro',
     author: 'Andrew Grathwohl',
-    date: 'October 15, 2019',
+    date: 'October 18, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
