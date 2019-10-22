@@ -393,7 +393,7 @@ const oldTracks = [{
     itunesEpisodeType: 'bonus'
 },{
     title: 'Reflection No. 1',
-    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_01.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_016.opus">OPUS</a>.',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_016.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_016.opus">OPUS</a>.',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_016.mp3',
     categories: ['Music'],
     guid: 'SMOLD_016',
@@ -415,6 +415,32 @@ const oldTracks = [{
     itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
     itunesSeason: 2015,
     itunesEpisode: 4,
+    itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'bonus'
+},{
+    title: 'Prelude to Titan',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_017.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_017.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_017.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_017',
+    author: 'Andrew Grathwohl',
+    date: 'March 6, 2015',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_017.mp3',
+      file: '../releases/SMOLD_017.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_017.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_017.opus">OPUS</a>.',
+    itunesSubtitle: 'Garrett Semmelink: Violin',
+    itunesDuration: 340,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Prelude to Titan',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
+    itunesSeason: 2015,
+    itunesEpisode: 5,
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 }]
