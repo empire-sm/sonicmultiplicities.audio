@@ -446,7 +446,7 @@ const oldTracks = [{
 },{
     title: 'Splatter',
     description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_018.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_018.opus">OPUS</a>.',
-    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_017.mp3',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_018.mp3',
     categories: ['Music'],
     guid: 'SMOLD_018',
     author: 'Andrew Grathwohl',
@@ -460,13 +460,67 @@ const oldTracks = [{
     },
     itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_018.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_018.opus">OPUS</a>.',
     itunesSubtitle: 'Garrett Semmelink: Violin',
-    itunesDuration: 340,
+    itunesDuration: 1352,
     itunesExplicit: false,
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
     itunesTitle: 'Splatter',
     itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
     itunesSeason: 2015,
     itunesEpisode: 6,
+    itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'bonus'
+
+},{
+    title: 'Reflection No. 2',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_019.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_019.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_019.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_019',
+    author: 'Andrew Grathwohl',
+    date: 'June 13, 2015',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_019.mp3',
+      file: '../releases/SMOLD_019.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_019.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_019.opus">OPUS</a>.',
+    itunesSubtitle: 'Garrett Semmelink: Violin',
+    itunesDuration: 1931,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Reflection No. 2',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
+    itunesSeason: 2015,
+    itunesEpisode: 7,
+    itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'bonus'
+
+},{
+    title: 'Solfatara',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_020.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_020.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_020.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_020',
+    author: 'Andrew Grathwohl',
+    date: 'April 29, 2016',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_020.mp3',
+      file: '../releases/SMOLD_020.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_020.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_020.opus">OPUS</a>.',
+    itunesSubtitle: 'Garrett Semmelink: Violin',
+    itunesDuration: 674,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Solfatara',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
+    itunesSeason: 2016,
+    itunesEpisode: 1,
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
 
