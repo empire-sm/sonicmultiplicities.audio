@@ -443,6 +443,33 @@ const oldTracks = [{
     itunesEpisode: 5,
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
+},{
+    title: 'Splatter',
+    description: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_018.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_018.opus">OPUS</a>.',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_017.mp3',
+    categories: ['Music'],
+    guid: 'SMOLD_018',
+    author: 'Andrew Grathwohl',
+    date: 'April 23, 2015',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SMOLD_018.mp3',
+      file: '../releases/SMOLD_018.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSummary: 'Garrett Semmelink: Violin<br>Download the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_018.flac">FLAC</a> or the <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SMOLD_018.opus">OPUS</a>.',
+    itunesSubtitle: 'Garrett Semmelink: Violin',
+    itunesDuration: 340,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Splatter',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
+    itunesSeason: 2015,
+    itunesEpisode: 6,
+    itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'bonus'
+
 }]
 
 module.exports = {
