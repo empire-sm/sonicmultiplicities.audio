@@ -670,7 +670,7 @@ module.exports = {
     },
     itunesSummary: "Introduction to Music Ain't For Airports, <a href='https://sonicmultiplicities.audio/music/SA002/'>SA002</a>, by Andrew Grathwohl",
     itunesSubtitle: 'SM002a introduction, by Andrew Grathwohl',
-    itunesDuration: 124,
+    itunesDuration: 131,
     itunesExplicit: false,
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
     itunesTitle: 'Introduction to Music Ain\'t For Airports',
