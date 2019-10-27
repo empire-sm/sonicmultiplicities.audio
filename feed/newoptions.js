@@ -679,5 +679,31 @@ module.exports = {
     itunesEpisode: 3,
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'trailer'
+  },{
+    title: 'VIDEO: Music Ain\'t For Airports',
+    description: "We captured our Sonicmeister Garrett Semmelink on video as he performed Music Ain't For Airports, <a href='https://sonicmultiplicities.audio/music/SA002/'>SA002</a>. But something weird happened as we began rolling...",
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/mafa.mov',
+    categories: ['Music'],
+    guid: 'SM002a_video',
+    author: 'Andrew Grathwohl',
+    date: 'October 18, 2019',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/mafa.mov',
+      file: "/media/smpieces/04222019/1 - Music Ain't for Airports/video/mafa.mov",
+      type: 'video/quicktime'
+    },
+    itunesSummary: "We captured our Sonicmeister Garrett Semmelink on video as he performed Music Ain't For Airports, <a href='https://sonicmultiplicities.audio/music/SA002/'>SA002</a>. But something weird happened as we began rolling...",
+    itunesSubtitle: 'SM002a THE MUSIC VIDEO',
+    itunesDuration: 860,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'VIDEO: Music Ain\'t For Airports',
+    itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM002a.jpg',
+    itunesSeason: 2019,
+    itunesEpisode: 4,
+    itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'bonus'
   }].concat(oldTracks)
 }
