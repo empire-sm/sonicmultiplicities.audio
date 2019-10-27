@@ -686,7 +686,7 @@ module.exports = {
     categories: ['Music'],
     guid: 'SM002a_video',
     author: 'Andrew Grathwohl',
-    date: 'October 18, 2019',
+    date: 'October 27, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
