@@ -705,5 +705,31 @@ module.exports = {
     itunesEpisode: 4,
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
+  },{
+    title: 'BONUS: New Music Preview and Interview with guitarist Tyler Dinner',
+    description: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.",
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM003',
+    categories: ['Music'],
+    guid: 'SM003',
+    author: 'Andrew Grathwohl',
+    date: 'October 30, 2019',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM003.mp3',
+      file: "../releases/SM003.mp3",
+      type: 'audio/mpeg'
+    },
+    itunesSummary: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.",
+    itunesSubtitle: 'New music preview and interview with Tyler Dinner',
+    itunesDuration: 1857,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'BONUS: New Music Preview and Interview with guitarist Tyler Dinner',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
+    itunesSeason: 2019,
+    itunesEpisode: 5,
+    itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'bonus'
   }].concat(oldTracks)
 }
