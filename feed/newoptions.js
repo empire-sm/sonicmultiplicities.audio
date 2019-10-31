@@ -706,9 +706,9 @@ module.exports = {
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
   },{
-    title: 'BONUS: New Music Preview and Interview with guitarist Tyler Dinner',
-    description: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.",
-    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM003',
+    title: 'SM003: New Music Preview and Interview with guitarist Tyler Dinner',
+    description: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.<br><br>We talked about a lot of neat stuff, so here are resoruces related to some of the more interesting topics...<br><br><b>Bowed Cymbals</b><br>It's a gas, man!<br><a href='http://www.gongtopia.com/sound-chamber/the-art-of-bowing---1.html'>How to do it</a><br><a href='http://www.luigimarino.net/words/writing-for-bowed-cymbals.html'>A dope overview of bowed cymbals for composers</a><br><br><b>Metal thumb picks</b><br><a href='https://www.banjohangout.org/archive/111517'>A great convo about these things on the BANJOHANGOUT forums (lol)</a>",
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM003.mp3',
     categories: ['Music'],
     guid: 'SM003',
     author: 'Andrew Grathwohl',
@@ -720,8 +720,8 @@ module.exports = {
       file: "../releases/SM003.mp3",
       type: 'audio/mpeg'
     },
-    itunesSummary: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.<br><br>We talked about a lot of neat stuff, so here are resoruces related to some of the more interesting topics...<br><br><b>Bowed Cymbals</b><br>It's a gas, man!<br><a href='http://www.gongtopia.com/sound-chamber/the-art-of-bowing---1.html'>How to do it</a><br><a href='http://www.luigimarino.net/words/writing-for-bowed-cymbals.html'>A dope overview of bowed cymbals for composers</a><br><br><b>Metal thumb picks</b><br><a href='https://www.banjohangout.org/archive/111517'>A great convo about these things on the BANJOHANGOUT forums (lol)</a>",
-    content: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.<br><br>We talked about a lot of neat stuff, so here are resoruces related to some of the more interesting topics...<br><br><b>Bowed Cymbals</b><br>It's a gas, man!<br><a href='http://www.gongtopia.com/sound-chamber/the-art-of-bowing---1.html'>How to do it</a><br><a href='http://www.luigimarino.net/words/writing-for-bowed-cymbals.html'>A dope overview of bowed cymbals for composers</a><br><br><b>Metal thumb picks</b><br><a href='https://www.banjohangout.org/archive/111517'>A great convo about these things on the BANJOHANGOUT forums (lol)</a>",
+    itunesSummary: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.",
+    content: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.",
     itunesSubtitle: 'New music preview and interview with Tyler Dinner',
     itunesDuration: 1857,
     itunesExplicit: false,
@@ -731,6 +731,5 @@ module.exports = {
     itunesSeason: 2019,
     itunesEpisode: 5,
     itunesAuthor: 'Andrew Grathwohl',
-    itunesEpisodeType: 'bonus'
   }].concat(oldTracks)
 }
