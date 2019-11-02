@@ -706,18 +706,18 @@ module.exports = {
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
   },{
-    title: 'SM003: New Music Preview and Interview with guitarist Tyler Dinner',
+    title: 'SI001: New Music Preview and Interview with guitarist Tyler Dinner',
     description: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.<br><br>We talked about a lot of neat stuff, so here are resoruces related to some of the more interesting topics...<br><br><b>Bowed Cymbals</b><br>It's a gas, man!<br><a href='http://www.gongtopia.com/sound-chamber/the-art-of-bowing---1.html'>How to do it</a><br><a href='http://www.luigimarino.net/words/writing-for-bowed-cymbals.html'>A dope overview of bowed cymbals for composers</a><br><br><b>Metal thumb picks</b><br><a href='https://www.banjohangout.org/archive/111517'>A great convo about these things on the BANJOHANGOUT forums (lol)</a>",
-    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM003.mp3',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SI001.mp3',
     categories: ['Music'],
-    guid: 'SM003',
+    guid: 'SI001',
     author: 'Andrew Grathwohl',
     date: 'October 30, 2019',
     'lat': latitude,
     'long': longitude,
     enclosure: {
-      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM003.mp3',
-      file: "../releases/SM003.mp3",
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SI001.mp3',
+      file: "../releases/SI001.mp3",
       type: 'audio/mpeg'
     },
     itunesSummary: "Here we have a special treat for SM fans: a preview of new solo guitar works by Tyler Dinner, followed by a phone interview with Mr. Dinner himself about the recording experience.",
@@ -731,5 +731,31 @@ module.exports = {
     itunesSeason: 2019,
     itunesEpisode: 5,
     itunesAuthor: 'Andrew Grathwohl',
+  },{
+    title: 'SM003: Reflection No. 3',
+    description: '<b>Garrett Semmelink</b>: Violin, voice, percussion.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/370459164">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM003.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM003.opus">OPUS</a>',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM003.mp3',
+    categories: ['Music'],
+    guid: 'SM003',
+    author: 'Andrew Grathwohl',
+    date: 'November 2, 2019',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM003.mp3',
+      file: "../releases/SM003.mp3",
+      type: 'audio/mpeg'
+    },
+    itunesSummary: '<b>Garrett Semmelink</b>: Violin, voice, percussion.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/370459164">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM003.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM003.opus">OPUS</a>',
+    content: '<b>Garrett Semmelink</b>: Violin, voice, percussion.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/370459164">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM003.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM003.opus">OPUS</a>',
+    itunesSubtitle: 'FOR HE IS THE GUARDIAN AND HIS TRIANGLE IS A HOUSE',
+    itunesDuration: 2192,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'SM003: Reflection No. 3',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
+    itunesSeason: 2019,
+    itunesEpisode: 6,
+    itunesAuthor: 'Andrew Grathwohl'
   }].concat(oldTracks)
 }
