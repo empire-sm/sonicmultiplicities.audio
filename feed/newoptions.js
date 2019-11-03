@@ -753,7 +753,7 @@ module.exports = {
     itunesExplicit: false,
     itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
     itunesTitle: 'SM003: Reflection No. 3',
-    itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
+    itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/g1drsm.png',
     itunesSeason: 2019,
     itunesEpisode: 6,
     itunesAuthor: 'Andrew Grathwohl'
