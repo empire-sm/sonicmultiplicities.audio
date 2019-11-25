@@ -731,6 +731,7 @@ module.exports = {
     itunesSeason: 2019,
     itunesEpisode: 5,
     itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'bonus'
   },{
     title: 'SM003: Reflection No. 3',
     description: '<b>Garrett Semmelink</b>: Violin, voice, percussion.<br>Check out the <b>music video</b> on <a href="https://vimeo.com/370459164">Vimeo</a>! Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM003.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM003.opus">OPUS</a>',
@@ -757,5 +758,32 @@ module.exports = {
     itunesSeason: 2019,
     itunesEpisode: 6,
     itunesAuthor: 'Andrew Grathwohl'
+  },{
+    title: 'SI002: Chat with violinist and head Sonicmeister, Garrett Semmelink',
+    description: "Garrett and I make a stunning comparison between Bach and Mohammed.",
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SI002.mp3',
+    categories: ['Music'],
+    guid: 'SI002',
+    author: 'Andrew Grathwohl',
+    date: 'November 25, 2019',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SI002.mp3',
+      file: "../releases/SI002.mp3",
+      type: 'audio/mpeg'
+    },
+    itunesSummary: "Garrett and I make a stunning comparison between Bach and Mohammed.",
+    content: "Garrett and I make a stunning comparison between Bach and Mohammed.",
+    itunesSubtitle: 'A chat Garrett and I had on my 30th birthday. Yeah...',
+    itunesDuration: 3608,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'BONUS: Chat with Garrett Semmelink',
+    itunesImage: 'https://sonicmultiplicities.audio/triangle.jpg',
+    itunesSeason: 2019,
+    itunesEpisode: 7,
+    itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'bonus'
   }].concat(oldTracks)
 }
