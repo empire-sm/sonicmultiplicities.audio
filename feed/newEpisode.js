@@ -1,3 +1,13 @@
+/*
+ * TODO
+ *
+ * Get system's current date/time and use that as date of episode
+ *
+ * Create CSV for full (SM_) episodes, enumerate csv each new episode that gets added to feed
+ *
+ *
+ */
+
 const readline = require('readline')
 
 const latitude = 40.741895
