@@ -785,5 +785,31 @@ module.exports = {
     itunesEpisode: 7,
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'bonus'
+  },{
+    title: 'SM004: FIREROOM',
+    description: '<b>Garrett Semmelink</b>: Violin.<br>Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM004.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM004.opus">OPUS</a>',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM004.mp3',
+    categories: ['Music'],
+    guid: 'SM003',
+    author: 'Andrew Grathwohl',
+    date: 'December 4, 2019',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM004.mp3',
+      file: "../releases/SM004.mp3",
+      type: 'audio/mpeg'
+    },
+    itunesSummary: '<b>Garrett Semmelink</b>: Violin.<br>Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM004.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM004.opus">OPUS</a>',
+    content: '<b>Garrett Semmelink</b>: Violin.<br>Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM004.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM004.opus">OPUS</a>',
+    itunesSubtitle: 'Garrett Semmelink: Violin.',
+    itunesDuration: 1904,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'SM004: FIREROOM',
+    itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/fireroom.jpg',
+    itunesSeason: 2019,
+    itunesEpisode: 8,
+    itunesAuthor: 'Andrew Grathwohl'
   }].concat(oldTracks)
 }
