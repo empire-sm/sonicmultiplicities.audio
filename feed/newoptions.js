@@ -815,7 +815,7 @@ module.exports = {
     description: '<b>Garrett Semmelink</b>: Violin.<br>Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM004.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM004.opus">OPUS</a>',
     url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM004.mp3',
     categories: ['Music'],
-    guid: 'SM003',
+    guid: 'SM004',
     author: 'Andrew Grathwohl',
     date: 'December 4, 2019',
     'lat': latitude,
