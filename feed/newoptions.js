@@ -862,5 +862,31 @@ module.exports = {
     itunesSeason: 2019,
     itunesEpisode: 9,
     itunesAuthor: 'Andrew Grathwohl'
+  },{
+    title: 'Introduction to A Deep Sense of Responsibility',
+    description: "Introduction to A Deep Sense of Responsibility, <a href='https://sonicmultiplicities.audio/music/SA003/'>SA003</a>, by Andrew Grathwohl",
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM005_intro.mp3',
+    categories: ['Music'],
+    guid: 'SM005_intro',
+    author: 'Andrew Grathwohl',
+    date: 'December 19, 2019',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM005_intro.mp3',
+      file: '../releases/SM005_intro.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSummary: "Introduction to A Deep Sense of Responsibility, <a href='https://sonicmultiplicities.audio/music/SA003/'>SA003</a>, by Andrew Grathwohl",
+    itunesSubtitle: "Introduction to A Deep Sense of Responsibility, <a href='https://sonicmultiplicities.audio/music/SA003/'>SA003</a>, by Andrew Grathwohl",
+    itunesDuration: 250,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'Introduction to A Deep Sense of Responsibility',
+    itunesSeason: 2019,
+    itunesEpisode: 9,
+    itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'trailer'
+
   }].concat(oldTracks)
 }
