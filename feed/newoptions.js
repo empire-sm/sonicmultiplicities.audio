@@ -836,5 +836,31 @@ module.exports = {
     itunesSeason: 2019,
     itunesEpisode: 8,
     itunesAuthor: 'Andrew Grathwohl'
+  },{
+    title: 'SM005: A Deep Sense of Responsibility',
+    description: 'In celebration of all 85 IQ points it took to accomplish #Impeachment2019! <b>Garrett Semmelink</b>: Percussion.<br>Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM005.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM005.opus">OPUS</a>',
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM005.mp3',
+    categories: ['Music'],
+    guid: 'SM005',
+    author: 'Andrew Grathwohl',
+    date: 'December 18, 2019',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SM005.mp3',
+      file: "../releases/SM005.mp3",
+      type: 'audio/mpeg'
+    },
+    itunesSummary: 'In celebration of all 85 IQ points it took to accomplish #Impeachment2019! <b>Garrett Semmelink</b>: Percussion.<br>Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM005.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM005.opus">OPUS</a>',
+    content: 'In celebration of all 85 IQ points it took to accomplish #Impeachment2019! <b>Garrett Semmelink</b>: Percussion.<br>Downloads: <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM005.flac">FLAC</a> & <a href="https://s3.amazonaws.com/sonicmultiplicities.audio/feed/downloads/SM005.opus">OPUS</a>',
+    itunesSubtitle: 'Garrett Semmelink: Percussion.',
+    itunesDuration: 1992,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: 'SM005: A Deep Sense of Responsibility',
+    itunesImage: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/adsr.jpg',
+    itunesSeason: 2019,
+    itunesEpisode: 9,
+    itunesAuthor: 'Andrew Grathwohl'
   }].concat(oldTracks)
 }
