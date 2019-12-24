@@ -888,5 +888,30 @@ module.exports = {
     itunesAuthor: 'Andrew Grathwohl',
     itunesEpisodeType: 'trailer'
 
+  },{
+    title: "Season's Greetings From All Of Us At ▲▲▲▲▲▲▲▲▲▲▲▲",
+    description: "We love all of our listeners, so we would like to remind you to not so easily give control to your self-driving automotive transportation vessels during your holiday travels.",
+    url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SB001.mp3',
+    categories: ['Music'],
+    guid: 'SB001',
+    author: 'Andrew Grathwohl',
+    date: 'December 24, 2019',
+    'lat': latitude,
+    'long': longitude,
+    enclosure: {
+      url: 'https://s3.amazonaws.com/sonicmultiplicities.audio/feed/SB001.mp3',
+      file: '../releases/SB001.mp3',
+      type: 'audio/mpeg'
+    },
+    itunesSummary: "We love all of our listeners, so we would like to remind you to not so easily give control to your self-driving automotive transportation vessels during your holiday travels.",
+    itunesSubtitle: "We love all of our listeners! Please don't die!",
+    itunesDuration: 218,
+    itunesExplicit: false,
+    itunesKeywords: ['music', 'experimental', 'avant-garde', 'electroacoustic', 'computer', 'linux', 'audio'],
+    itunesTitle: "Season's Greetings From All Of Us At ▲▲▲▲▲▲▲▲▲▲▲▲",
+    itunesSeason: 2019,
+    itunesEpisode: 10,
+    itunesAuthor: 'Andrew Grathwohl',
+    itunesEpisodeType: 'bonus'
   }].concat(oldTracks)
 }
